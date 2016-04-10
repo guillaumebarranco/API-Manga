@@ -11,13 +11,13 @@ class mangaProvider {
 
 		this.mangas = [
 
-			{
+			{ // One Piece
 				name: "One Piece",
 				authors: [{name: "Eiichiro Oda"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -32,7 +32,7 @@ class mangaProvider {
 				publicationStart: "1997",
 				type: "Shonen"
 			},
-			{
+			{ // Naruto
 				name: "Naruto",
 				authors: [{name: "Masashi Kishimoto"}],
 				closeMangas: [],
@@ -53,13 +53,13 @@ class mangaProvider {
 				publicationStart: "1999",
 				type: "Shonen"
 			},
-			{
+			{ // Kingdom
 				name: "Kingdom",
 				authors: [{name: "Yasuhisa Hara"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "war, general",
 				logo: "",
 				mainHero: {
@@ -74,7 +74,7 @@ class mangaProvider {
 				publicationStart: "2006",
 				type: "Seinen"
 			},
-			{
+			{ // Kenichi
 				name: "Kenichi",
 				authors: [{name:"Matsuena Syun"}],
 				closeMangas: [],
@@ -95,7 +95,7 @@ class mangaProvider {
 				publicationStart: "2002",
 				type: "Ecchi"
 			},
-			{
+			{ // Kenshin le Vagabond
 				name: "Kenshin le Vagabond",
 				authors: [{name:"Nobuhiro Watsuki"}],
 				closeMangas: [],
@@ -116,7 +116,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Eyeshield 21
 				name: "Eyeshield 21",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -137,7 +137,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Bakuman
 				name: "Bakuman",
 				authors: [
 					{name: "Takeshi Obata"},
@@ -161,7 +161,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Pretty Face
 				name: "Pretty Face",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -182,7 +182,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Dragon Ball
 				name: "Dragon Ball",
 				authors: [{name:"Akira Toriyama"}],
 				closeMangas: [],
@@ -203,13 +203,13 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Feng Shen Ji
 				name: "Feng Shen Ji",
 				authors: [{name:"Zeng Jian He"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "gods, manhua",
 				logo: "",
 				mainHero: {
@@ -224,7 +224,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Jackals
 				name: "Jackals",
 				authors: [{name:"Kim Byung Jin"}],
 				closeMangas: [],
@@ -245,7 +245,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Seinen"
 			},
-			{
+			{ // Red Storm
 				name: "Red Storm",
 				authors: [{name:"Cyungchan Noh"}],
 				closeMangas: [],
@@ -266,13 +266,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Magi
 				name: "Magi The Labyrinth of Magic",
 				authors: [{name:"Ohtaka Shinobu"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -287,13 +287,13 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // DICE
 				name: "DICE: The Cube that Changes Everything",
 				authors: [{name:"Yun Hyun Suk"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -308,13 +308,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Toriko"
 				name: "Toriko",
 				authors: [{name:"Shimabukuro Mitsutoshi"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "food, gourmet, animals",
 				logo: "",
 				mainHero: {
@@ -329,13 +329,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // OnePunch-Man
 				name: "OnePunch-Man",
 				authors: [{name:"One"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -350,13 +350,13 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Kingdom
 				name: "Kingdom",
 				authors: [{name:""}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -371,13 +371,13 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Dr. Frost
 				name: "Dr. Frost",
 				authors: [{name:"Lee Jong-bym"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -392,7 +392,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Satan 666
 				name: "Satan 666",
 				authors: [{name:"Kishimoto"}],
 				closeMangas: [],
@@ -413,7 +413,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Worst
 				name: "Worst",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -434,7 +434,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Yu-Gi-Oh
 				name: "Yu-Gi-Oh",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -455,7 +455,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // All You Need Is Kill
 				name: "All You Need Is Kill",
 				authors: [
 					{name: "Takeshi Obata"},
@@ -479,13 +479,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Akame Ga Kill
 				name: "Akame Ga Kill",
 				authors: [{name:"Takahiro"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -500,13 +500,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Seinen"
 			},
-			{
+			{ // Boku No Hero Academia
 				name: "Boku No Hero Academia",
 				authors: [{name:"Horikoshi Kouhei"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "hero, super heroes",
 				logo: "",
 				mainHero: {
@@ -521,7 +521,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Yu Yu Hakusho
 				name: "Yu Yu Hakusho",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -542,13 +542,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Karate Shoukoushi
 				name: "Karate Shoukoushi Kohinata Minoru",
 				authors: [{name:"Yasushi Baba"}],
 				closeMangas: ["Kenichi"],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -563,7 +563,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // The Gamer
 				name: "The Gamer",
 				authors: [{name:"Sung San-Young"}],
 				closeMangas: [],
@@ -584,7 +584,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Black Clover
 				name: "Black Clover",
 				authors: [{name:"Tabata Yuuki"}],
 				closeMangas: [],
@@ -605,7 +605,7 @@ class mangaProvider {
 				publicationStart: "2015",
 				type: "Shonen"
 			},
-			{
+			{ // Nisekoi
 				name: "Nisekoi",
 				authors: [{name:"Komi Naoshi"}],
 				closeMangas: [],
@@ -626,7 +626,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Noblesse
 				name: "Noblesse",
 				authors: [
 					{name:"Son Jae-Ho"},
@@ -650,7 +650,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Death Note
 				name: "Death Note",
 				authors: [
 					{name: "Takeshi Obata"},
@@ -674,7 +674,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Assassination Classroom
 				name: "Assassination Classroom",
 				authors: [{name:"Matsui Yuusei"}],
 				closeMangas: [],
@@ -695,7 +695,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Hunter X Hunter
 				name: "Hunter X Hunter",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -716,7 +716,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Fullmetal Alchemist
 				name: "Fullmetal Alchemist",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -737,9 +737,9 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Ginga Patrol Jako
 				name: "Ginga Patrol Jako",
-				authors: [{name:""}],
+				authors: [{name:"Akira Toriyama"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
@@ -747,18 +747,18 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Jako"
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				nbBooks: 0,
+				nbChapters: 12,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Beelzebub
 				name: "Beelzebub",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -768,18 +768,18 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Oga Tatsumi"
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
-				publicationEnd: null,
+				publicationEnd: "",
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // GTO
 				name: "GTO",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -789,39 +789,40 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Eiikichi Onizuka"
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
 				publicationEnd: null,
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Captain Tsubasa
 				name: "Captain Tsubasa",
+				frenchName: "Olive Et Tom",
 				authors: [{name:""}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
 				isFinished: true,
-				keywords: "",
+				keywords: "sport, football",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Tsubasa Ohzora"
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Gamble fish
 				name: "Gamble fish",
 				authors: [{name:"Aoyama Hiromi"}],
 				closeMangas: [],
@@ -831,7 +832,7 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: "Tomy Shirasagi"
+					name: "Tomu Shirasagi"
 				},
 				japaneseEditor: "",
 				frenchEditor: "",
@@ -842,13 +843,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Ecchi"
 			},
-			{
+			{ // Shingeki No
 				name: "Shingeki No Kyojin",
 				authors: [{name:"Isayama Hajime"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -863,41 +864,41 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Tonari no Seki-kun
 				name: "Tonari no Seki-kun",
 				authors: [{name:""}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Seki"
 				},
-				japaneseEditor: "Weekly Shonen Jump",
-				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				japaneseEditor: "",
+				frenchEditor: "",
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
 				publicationEnd: null,
-				publicationStart: "1994",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Tower Of God
 				name: "Tower Of God",
 				authors: [{name:"Slave In Utero"}],
 				closeMangas: [],
 				description: "",
-				hasAnime: true,
-				isFinished: true,
+				hasAnime: false,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
 					name: ""
 				},
 				japaneseEditor: "",
-				frenchEditor: "Glénat",
+				frenchEditor: "",
 				nbBooks: 0,
 				nbChapters: 275,
 				nbEpisodes: 0,
@@ -905,7 +906,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Dreamland
 				name: "Dreamland",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -917,16 +918,16 @@ class mangaProvider {
 				mainHero: {
 					name: ""
 				},
-				japaneseEditor: "Weekly Shonen Jump",
-				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				japaneseEditor: "",
+				frenchEditor: "",
+				nbBooks: 14,
+				nbChapters: 0,
 				nbEpisodes: 0,
 				publicationEnd: null,
-				publicationStart: "1994",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Crows
 				name: "Crows",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -936,18 +937,18 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Boya Harumichi"
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Claymore
 				name: "Claymore",
 				authors: [{name:"Yagu Norihiro"}],
 				closeMangas: [],
@@ -964,11 +965,11 @@ class mangaProvider {
 				nbBooks: 0,
 				nbChapters: 155,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Puella Magi
 				name: "Puella Magi Madoka Magica",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -980,37 +981,37 @@ class mangaProvider {
 				mainHero: {
 					name: "Madoka Kaname"
 				},
-				japaneseEditor: "Weekly Shonen Jump",
-				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				japaneseEditor: "",
+				frenchEditor: "",
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Slam Dunk
 				name: "Slam Dunk",
 				authors: [{name:""}],
-				closeMangas: [],
+				closeMangas: ["Kuroko No Basket", "Crows"],
 				description: "",
 				hasAnime: true,
 				isFinished: true,
-				keywords: "",
+				keywords: "basket, sport",
 				logo: "",
 				mainHero: {
 					name: ""
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Nanatsu No Taizai
 				name: "Nanatsu No Taizai",
 				authors: [{name:"Suzuki Nakaba"}],
 				closeMangas: [],
@@ -1020,7 +1021,7 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "M"
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
@@ -1028,10 +1029,10 @@ class mangaProvider {
 				nbChapters: 167,
 				nbEpisodes: 0,
 				publicationEnd: null,
-				publicationStart: "1994",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Détective Conan
 				name: "Détective Conan",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1052,7 +1053,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Ashita No Joe
 				name: "Ashita No Joe",
 				authors: [{name:"Takamori Asao"}],
 				closeMangas: [],
@@ -1073,7 +1074,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Gamaran
 				name: "Gamaran",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1094,7 +1095,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Terra Formars
 				name: "Terra Formars",
 				authors: [{name:"Yu Sagusa"}],
 				closeMangas: [],
@@ -1115,7 +1116,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Black Cat
 				name: "Black Cat",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1125,20 +1126,20 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Train Heartnet"
 				},
-				japaneseEditor: "Weekly Shonen Jump",
-				frenchEditor: "Glénat",
-				nbBooks: 78,
-				nbChapters: 822,
+				japaneseEditor: "",
+				frenchEditor: "",
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
-				name: "City Hunter",
-				frenchName: "City Hunter",
+			{ // City Hunter
+				name: "City Hunte",
+				frenchName: "Nicky Larson",
 				authors: [{name:""}],
 				closeMangas: [],
 				description: "",
@@ -1158,13 +1159,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Darwin's Game
 				name: "Darwin's Game",
 				authors: [{name:"Flipf lops"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -1179,7 +1180,7 @@ class mangaProvider {
 				publicationStart: "2015",
 				type: "Shonen"
 			},
-			{
+			{ // Bleach
 				name: "Bleach",
 				authors: [{name:"Tite Kubo"}],
 				closeMangas: [],
@@ -1189,18 +1190,18 @@ class mangaProvider {
 				keywords: "",
 				logo: "",
 				mainHero: {
-					name: ""
+					name: "Ichigo Kurosaki"
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
 				nbBooks: 0,
 				nbChapters: 669,
 				nbEpisodes: 0,
-				publicationEnd: null,
-				publicationStart: "1994",
+				publicationEnd: "",
+				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // World Trigger
 				name: "World Trigger",
 				authors: [{name:"Daisuke Ashihara"}],
 				closeMangas: [],
@@ -1221,7 +1222,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Hikaru No Go
 				name: "Hikaru No Go",
 				authors: [
 					{name: "Takeshi Obata"},
@@ -1245,7 +1246,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Saru Lock
 				name: "Saru Lock",
 				authors: [{name:"Naoki Serizawa"}],
 				closeMangas: [],
@@ -1266,7 +1267,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Seinen"
 			},
-			{
+			{ // The Breaker
 				name: "The Breaker",
 				authors: [
 					{name:"Jeon Geuk-Jin"},
@@ -1290,7 +1291,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Shaman king
 				name: "Shaman king",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1311,13 +1312,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Hinomaru Zumou
 				name: "Hinomaru Zumou",
 				authors: [{name:"Kawada"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -1332,7 +1333,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Asu No Yoichi
 				name: "Asu No Yoichi",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1353,7 +1354,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Ecchi"
 			},
-			{
+			{ // Doubt
 				name: "Doubt",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1374,7 +1375,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Seinen"
 			},
-			{
+			{ // Young GTO
 				name: "Young GTO",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1395,7 +1396,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Rave
 				name: "Rave",
 				authors: [{name:"Hiro Mashima"}],
 				closeMangas: [],
@@ -1416,7 +1417,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Kubera
 				name: "Kubera",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1437,14 +1438,14 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Haikyū!!
 				name: "Haikyū!!",
 				authors: [{name:""}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
-				keywords: "",
+				isFinished: false,
+				keywords: "sport, volleyball",
 				logo: "",
 				mainHero: {
 					name: ""
@@ -1458,7 +1459,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Kuroko No Basket
 				name: "Kuroko No Basket",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1479,7 +1480,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Code:breaker
 				name: "Code:breaker",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1500,13 +1501,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Fairy Tail
 				name: "Fairy Tail",
 				authors: [{name:"Hiro Mashima"}],
 				closeMangas: ["Rave"],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "magic",
 				logo: "",
 				mainHero: {
@@ -1521,13 +1522,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Shokugeki no Soma
 				name: "Shokugeki no Soma",
 				authors: [{name:"Tsukuda Yuuto"}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -1542,13 +1543,13 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Girls of The Wild's
 				name: "Girls of The Wild's",
 				authors: [{name:"Hun"}],
 				closeMangas: ["Nisekoi"],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
@@ -1563,7 +1564,7 @@ class mangaProvider {
 				publicationStart: "1994",
 				type: "Shonen"
 			},
-			{
+			{ // Hi No Tori
 				name: "Hi No Tori",
 				authors: [{name:"Ozamu Tezuka"}],
 				closeMangas: [],
@@ -1584,7 +1585,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: ""
 			},
-			{
+			{ // Prince of Tennis
 				name: "Prince of Tennis",
 				authors: [{name:""}],
 				closeMangas: ["Kuroko No Basket"],
@@ -1605,7 +1606,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Lui Ou Rien
 				name: "Lui Ou Rien",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1626,7 +1627,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shojo"
 			},
-			{
+			{ // Reborn
 				name: "Reborn",
 				authors: [{name:""}],
 				closeMangas: [],
@@ -1647,7 +1648,7 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Blue Dragon
 				name: "Blue Dragon",
 				authors: [
 					{name:"Takeshi Obata"}
@@ -1670,13 +1671,13 @@ class mangaProvider {
 				publicationStart: "",
 				type: "Shonen"
 			},
-			{
+			{ // Blazing Ninjaman
 				name: "Blazing Ninjaman",
 				authors: [{name:""}],
 				closeMangas: [],
 				description: "",
 				hasAnime: true,
-				isFinished: true,
+				isFinished: false,
 				keywords: "",
 				logo: "",
 				mainHero: {
