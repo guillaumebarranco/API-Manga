@@ -13,4 +13,6 @@ const mangaClass = require('./app/routes/mangas'),
 // console.log(responseCloseMangas);
 
 const responseAll = routeMangas.getAllMangas({order: 'Z-A'});
+
+// const insert = routeMangas.insertManga('test');
 console.log(responseAll);

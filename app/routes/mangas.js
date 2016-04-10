@@ -21,6 +21,10 @@ class Manga {
 	getCloseMangasById(mangaId, limit) {
 		return mangaController.getCloseMangasById(mangaId, limit);
 	}
+
+	insertManga(manga) {
+		return mangaController.insertManga(manga);
+	}
 }
 
 module.exports = Manga;
