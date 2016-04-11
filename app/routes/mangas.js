@@ -1,26 +1,37 @@
 "use strict";
 
-const mangaControllerClass = require('./../controllers/manga'),
+const 
+	express = require('express'),
+	router = express.Router(),
+	mangaControllerClass = require('./../controllers/manga'),
 	mangaController = new mangaControllerClass()
 ;
 
-class Manga {
+router.post('/getAllMangas', function(req, res) {
 
-	getAllMangas(filters) {
-		return mangaController.getAllMangas(filters);
-	}
+	let filters = req.body.filters;
 
-	getMangasByType(type, limit) {
-		return mangaController.getMangasByType(type, limit);
-	}
+	res.status(200).send(mangaController.getMangasByType(mangaController.getAllMangas(filters)));
 
-	getMangaByName(name) {
-		return mangaController.getMangaByName(name);
-	}
+});
 
-	getCloseMangasById(mangaId, limit) {
-		return mangaController.getCloseMangasById(mangaId, limit);
-	}
-}
+router.get('/getMangasByType/:type/:limit', function(req, res) {
 
-module.exports = Manga;
+	let type = req.params.type,
+		limit = req.params.limit;
+
+	res.status(200).send(mangaController.getMangasByType(type, limit));
+});
+
+router.get('/getMangaByName/:name', function(req, res) {
+
+	let type = req.params.name;
+
+	res.status(200).send(mangaController.getMangaByName(name));
+});
+
+/*router.get('/getCloseMangasById', function(mangaId, limit) {
+	return mangaController.getCloseMangasById(mangaId, limit);
+});*/
+
+module.exports = router;
