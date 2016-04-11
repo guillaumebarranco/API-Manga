@@ -1,7 +1,13 @@
 "use strict";
 
 const functionClass = require('./../../ressources/functions'),
-	functions = new functionClass();
+	functions = new functionClass(),
+	elasticsearch = require('elasticsearch'),
+	elasticClient = new elasticsearch.Client({
+		host: 'localhost:9200',
+		log: 'trace'
+	})
+;
 
 class mangaProvider {
 
@@ -139,6 +145,32 @@ class mangaProvider {
 		response.message = 'Close mangas not found';
 		response.status = 'error';
 		return response;
+	}
+
+	insertManga(manga) {
+		console.log(manga);
+
+		return elasticClient.index({
+	        index: 'mangas',
+	        type: "manga",
+	        body: {
+	            manga: manga
+	        }
+	    });
+	}
+
+	deleteManga(mangaId) {
+
+		console.log(mangaId);
+
+		elasticClient.delete({
+			index: 'mangas',
+			type: 'manga',
+			id: mangaId
+
+		}, function (error, response) {
+			return response;
+		});
 	}
 }
 

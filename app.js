@@ -1,39 +1,89 @@
 "use strict";
 
-const mangaClass = require('./app/routes/mangas'),
+const 
 	express = require('express'),
 	cookieParser = require('cookie-parser'),
+	cors = require('cors'),
 	bodyParser = require('body-parser');
 ;
 
 var app = express();
 
-app.use(cookieParser());
-app.use(bodyParser());
+class AppFunctions {
 
-app.enable('trust proxy');
+	constructor() {
+    }
 
-/// .. other middleware .. doesn't matter what
+	enableSessions() {
+        app.use(bodyParser.json());
+        app.use(bodyParser.urlencoded({extended: true}));
+        app.use(cookieParser());
+    }
 
+    useCors() {
+        app.use(cors());
+    }
 
-// app.post(...);
+	enableProxy() {
+        app.enable('trust proxy');
+    }
 
-// more middleware (executes after routes)
-// app.use(function(req, res, next) {});
+	handle404() {
+        app.use((req, res) => {
+            res.status(405).send({
+                message: "This route is not allowed !"
+            });
+        });
+    }
+}
 
+const myApp = new AppFunctions();
+myApp.enableSessions();
+myApp.useCors();
+myApp.enableProxy();
+// myApp.handle404();
 
-// const responseByType = routeMangas.getMangasByType('shonen', 2);
-// const responseByName = routeMangas.getMangaByName('Nauruto');
-// const responseCloseMangas = routeMangas.getCloseMangasById(1, 2);
+class Routes {
 
-// console.log(responseByType);
-// console.log(responseByName);
-// console.log(responseCloseMangas);
- 
-app.use('/mangas', require('./app/routes/mangas'));
+    constructor() {
+        const getRoutes = this.getRoutes(),
+            setRoutes = this.setRoutes(getRoutes)
+        ;
 
-// const responseAll = routeMangas.getAllMangas({order: 'Z-A'});
-// console.log(responseAll);
+        for(let route in setRoutes) {
+            if(setRoutes.hasOwnProperty(route)) {
+                this.useRoutes(setRoutes[route]);
+            }
+        }
+    }
+
+    getRoutes() {
+
+        return {
+
+            // Mangas
+
+            mangas              :       require('./app/routes/mangas')
+        };
+    }
+
+    setRoutes(getRoutes) {
+        return {
+
+            Mangas: {
+                '/mangas'                :       getRoutes.mangas,
+            }
+        };
+    }
+
+    useRoutes(routes) {
+        for (let route in routes) {
+            if(routes.hasOwnProperty(route)) app.use(route, routes[route]);
+        }
+    }
+}
+
+new Routes();
 
 var server = require('http').Server(app);
 

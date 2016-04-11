@@ -23,6 +23,14 @@ class Manga {
 	getCloseMangasById(mangaId, limit) {
 		return mangaProvider.getCloseMangasById(mangaId, limit);
 	}
+
+	insertManga(manga) {
+		return mangaProvider.insertManga(manga);
+	}
+
+	deleteManga(mangaId) {
+		return mangaProvider.deleteManga(mangaId);
+	}
 }
 
 module.exports = Manga;
