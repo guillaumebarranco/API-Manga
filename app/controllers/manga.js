@@ -27,6 +27,10 @@ class Manga {
 	insertManga(manga) {
 		return mangaProvider.insertManga(manga);
 	}
+
+	deleteManga(mangaId) {
+		return mangaProvider.deleteManga(mangaId);
+	}
 }
 
 module.exports = Manga;
