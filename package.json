@@ -1,0 +1,23 @@
+{
+  "name": "apimanga",
+  "version": "1.0.0",
+  "description": "An API for Mangas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumebarranco/API-Manga.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillaumebarranco/API-Manga/issues"
+  },
+  "homepage": "https://github.com/guillaumebarranco/API-Manga#readme",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "request": "^2.70.0"
+  }
+}

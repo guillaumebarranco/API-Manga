@@ -836,7 +836,7 @@ class mangaProvider {
 				},
 				japaneseEditor: "",
 				frenchEditor: "",
-				nbBooks: ,
+				nbBooks: 0,
 				nbChapters: 167,
 				nbEpisodes: 0,
 				publicationEnd: "null",
@@ -1452,8 +1452,8 @@ class mangaProvider {
 				},
 				japaneseEditor: "Weekly Shonen Jump",
 				frenchEditor: "Glénat",
-				nbBooks: ,
-				nbChapters: ,
+				nbBooks: 0,
+				nbChapters: 0,
 				nbEpisodes: 0,
 				publicationEnd: null,
 				publicationStart: "",
@@ -1758,7 +1758,7 @@ class mangaProvider {
 		}
 
 		return functions.sendError(response, "Manga Not Found");
-	}]
+	}
 
 	getCloseMangasById(mangaId, limit) {
 
@@ -1767,7 +1767,7 @@ class mangaProvider {
 
 		for(var manga of this.mangas) {
 			if(manga.id === mangaId) {
-				res]ponse.closeMangas = ]manga.closeMangas;
+				response.closeMangas = manga.closeMangas;
 				return response;
 			}
 		}
