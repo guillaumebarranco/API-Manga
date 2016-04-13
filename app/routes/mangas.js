@@ -21,7 +21,9 @@ router.get('/getMangasByType/:type/:limit', function(req, res) {
 	let type = req.params.type,
 		limit = req.params.limit;
 
-	res.status(200).send(mangaController.getMangasByType(type, limit));
+	mangaController.getMangasByType(type, limit, function(response) {
+		res.status(200).send(response);
+	});
 });
 
 router.get('/getMangaByName/:name', function(req, res) {

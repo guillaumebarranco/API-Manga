@@ -10,14 +10,15 @@ class Manga {
 	getAllMangas(filters, callback) {
 
 		 mangaProvider.getAllMangas(filters, function(response) {
-			 console.log('response', response);
-			 callback(response);
+			callback(response);
 		 });
 	}
 
-	getMangasByType(type, limit) {
+	getMangasByType(type, limit, callback) {
 
-		return mangaProvider.getMangasByType(type, limit);
+		mangaProvider.getMangasByType(type, limit, function(response) {
+			callback(response);
+		});
 	}
 
 	getMangaByName(name) {

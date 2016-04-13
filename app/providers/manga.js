@@ -19,40 +19,41 @@ class mangaProvider {
 
 	getAllMangas(filters, callback) {
 
-		/*if(typeof filters !== "object") filters = {};
-		if(typeof filters.order !== "undefined") filters.order = 'A-Z';
-		if(typeof filters.limit !== "undefined") filters.limit = 10;
+		if(typeof filters !== "object") filters = {};
 
-		let mangas = this.getMangas();
+		/*
+			if(typeof filters.order !== "undefined") filters.order = 'A-Z';
 
-		if(filters.order === 'A-Z') {
+			let mangas = this.getMangas();
 
-			mangas = mangas.sort(function(a, b){
-			    if(a.name < b.name) return -1;
-			    if(a.name > b.name) return 1;
-			    return 0;
-			});
+			if(filters.order === 'A-Z') {
 
-		} else if(filters.order === 'Z-A') {
+				mangas = mangas.sort(function(a, b){
+				    if(a.name < b.name) return -1;
+				    if(a.name > b.name) return 1;
+				    return 0;
+				});
 
-			mangas = mangas.sort(function(a, b){
-			    if(a.name > b.name) return -1;
-			    if(a.name < b.name) return 1;
-			    return 0;
-			});
-		}*/
+			} else if(filters.order === 'Z-A') {
 
-		var hits = [];
+				mangas = mangas.sort(function(a, b){
+				    if(a.name > b.name) return -1;
+				    if(a.name < b.name) return 1;
+				    return 0;
+				});
+			}
+		*/
+
+		if(typeof filters.limit === "undefined") filters.limit = 10;
 
 		elasticClient.search({
 
 			index: 'mangas',
 			type: 'manga',
-			size: 100
+			size: filters.limit
 
 		}).then(function (resp) {
-			hits = resp.hits.hits;
-			console.log(hits.length);
+			var hits = resp.hits.hits;
 			callback(hits);
 
 		}, function (err) {
@@ -60,21 +61,36 @@ class mangaProvider {
 		});
 	}
 
-	getMangasByType(type, limit) {
-		type = type.toLowerCase();
+	simpleLimitSearch(match, limit, callback) {
 
-		let response = [];
+		elasticClient.search({
 
-		for(var manga of this.mangas) {
-			if(response.length === limit) break;
-
-			if(manga.type.toLowerCase() === type) {
-				response.push(manga);
+			index: 'mangas',
+			type: 'manga',
+			size: limit,
+			body: {
+				query : {
+			      match: {
+			        _all: match
+			      }
+			    }
 			}
-		}
 
-		response.status = 'success';
-		return response;
+		}).then(function (resp) {
+			var hits = resp.hits.hits;
+			callback(hits);
+
+		}, function (err) {
+			// console.trace(err.message);
+		});
+
+	}
+
+	getMangasByType(type, limit, callback) {
+
+		this.simpleLimitSearch(type, limit, function(response) {
+			callback(response);
+		});
 	}
 
 	getMangaByName(name) {
