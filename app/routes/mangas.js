@@ -59,6 +59,21 @@ router.post('/insertManga', function(req, res) {
 	res.status(200).send(mangaController.insertManga(manga));
 });
 
+
+router.post('/insertAllMangas', function(req, res) {
+
+	mangaController.insertAllMangas(function(response) {
+		res.status(200).send(response);
+	})
+});
+
+router.post('/deleteAllMangas', function(req, res) {
+
+	mangaController.deleteAllMangas(function(response) {
+		res.status(200).send(response);
+	})
+});
+
 router.post('/deleteManga/:mangaId', function(req, res) {
 
 	let mangaId = req.params.mangaId;

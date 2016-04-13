@@ -32,8 +32,20 @@ class Manga {
 		return mangaProvider.insertManga(manga);
 	}
 
+	insertAllMangas(callback) {
+		mangaProvider.insertAllMangas(function(response) {
+			callback(response);
+		});
+	}
+
 	deleteManga(mangaId) {
 		return mangaProvider.deleteManga(mangaId);
+	}
+
+	deleteAllMangas(callback) {
+		mangaProvider.deleteAllMangas(function(response) {
+			callback(response);
+		});
 	}
 }
 
