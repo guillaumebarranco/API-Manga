@@ -7,9 +7,9 @@ const
 	mangaController = new mangaControllerClass()
 ;
 
-/*
-*	GET
-*/
+/*******************/
+/*       GET       */
+/*******************/
 
 /*
  * POST
@@ -75,9 +75,9 @@ router.get('/getMangaByName/:name', function(req, res) {
 	});
 });
 
-/*
-*	INSERT
-*/
+/*******************/
+/*      INSERT     */
+/*******************/
 
 router.post('/insertManga', function(req, res) {
 
@@ -93,9 +93,9 @@ router.post('/insertAllMangas', function(req, res) {
 	})
 });
 
-/*
-*	DELETE
-*/
+/*******************/
+/*      DELETE     */
+/*******************/
 
 router.post('/deleteAllMangas', function(req, res) {
 
