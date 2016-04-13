@@ -21,8 +21,17 @@ class Manga {
 		});
 	}
 
-	getMangaByName(name) {
-		return mangaProvider.getMangaByName(name);
+	getMangasByAuthor(author, limit, callback) {
+
+		mangaProvider.getMangasByAuthor(author, limit, function(response) {
+			callback(response);
+		});
+	}
+
+	getMangaByName(name, callback) {
+		mangaProvider.getMangaByName(name, function(response) {
+			callback(response);
+		});
 	}
 
 	getCloseMangasById(mangaId, limit) {

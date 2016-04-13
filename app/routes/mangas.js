@@ -7,6 +7,16 @@ const
 	mangaController = new mangaControllerClass()
 ;
 
+/*
+*	GET
+*/
+
+/*
+ * POST
+ *
+ * Body
+ * @object filters 		: example {limit: 10}
+ */
 router.post('/getAllMangas', function(req, res) {
 
 	let filters = req.body.filters;
@@ -16,6 +26,13 @@ router.post('/getAllMangas', function(req, res) {
 	});
 });
 
+/*
+ * GET
+ *
+ * Params
+ * @string type 		: example "shonen"
+ * @int limit			: example 10
+ */
 router.get('/getMangasByType/:type/:limit', function(req, res) {
 
 	let type = req.params.type,
@@ -26,41 +43,48 @@ router.get('/getMangasByType/:type/:limit', function(req, res) {
 	});
 });
 
+/*
+ * GET
+ *
+ * Params
+ * @string author 		: example "Akira Toriyama"
+ * @int limit			: example 10
+ */
+router.get('/getMangasByAuthor/:author/:limit', function(req, res) {
+
+	let author = req.params.author,
+		limit = req.params.limit;
+
+	mangaController.getMangasByAuthor(author, limit, function(response) {
+		res.status(200).send(response);
+	});
+});
+
+/*
+ * GET
+ *
+ * Params
+ * @string name 		: example "one piece"
+ */
 router.get('/getMangaByName/:name', function(req, res) {
 
-	let type = req.params.name;
+	let name = req.params.name;
 
-	res.status(200).send(mangaController.getMangaByName(name));
+	mangaController.getMangaByName(name, function(response) {
+		res.status(200).send(response);
+	});
 });
+
+/*
+*	INSERT
+*/
 
 router.post('/insertManga', function(req, res) {
 
 	let manga = req.body.manga;
 
-	// console.log(req.body);
-
-	manga = {
-		id: 1,
-		name: "One Piece",
-		description: "",
-		logo: "",
-		type: "Shonen",
-		author: "Eiichiro Oda",
-		publicationStart: "1994",
-		publicationEnd: null,
-		nbBooks: 78,
-		nbChapters: 822,
-		mainHero: {
-			name: "Luffy"
-		},
-		mainMagazine: "Shonen Jump",
-		keywords: "",
-		closeMangas: [2, 5]
-	};
-
 	res.status(200).send(mangaController.insertManga(manga));
 });
-
 
 router.post('/insertAllMangas', function(req, res) {
 
@@ -68,6 +92,10 @@ router.post('/insertAllMangas', function(req, res) {
 		res.status(200).send(response);
 	})
 });
+
+/*
+*	DELETE
+*/
 
 router.post('/deleteAllMangas', function(req, res) {
 

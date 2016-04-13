@@ -103,20 +103,22 @@ class mangaProvider {
 		});
 	}
 
-	getMangaByName(name) {
+	getMangasByAuthor(author, limit, callback) {
+
+		this.simpleLimitSearch(author, limit, function(response) {
+			callback(response);
+		});
+	}
+
+	getMangaByName(name, callback) {
 		name = name.toLowerCase();
 
 		let response = {};
 		response.status = "success";
 
-		for(var manga of this.mangas) {
-			if(manga.name.toLowerCase() === name) {
-				response.manga = manga;
-				return response;
-			}
-		}
-
-		return functions.sendError(response, "Manga Not Found");
+		let mangas = this.simpleLimitSearch(name, 1, function(response) {
+			callback(response);
+		});
 	}
 
 	getCloseMangasById(mangaId, limit) {
