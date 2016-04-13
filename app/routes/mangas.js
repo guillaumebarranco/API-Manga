@@ -11,9 +11,11 @@ router.post('/getAllMangas', function(req, res) {
 
 	let filters = req.body.filters;
 
-	res.status(200).send(mangaController.getMangasByType(mangaController.getAllMangas(filters)));
-
+	mangaController.getAllMangas(filters, function(response) {
+		res.status(200).send(response);
+	});
 });
+
 router.get('/getMangasByType/:type/:limit', function(req, res) {
 
 	let type = req.params.type,

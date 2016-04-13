@@ -7,8 +7,12 @@ const
 
 class Manga {
 
-	getAllMangas(filters) {
-		return mangaProvider.getAllMangas(filters);
+	getAllMangas(filters, callback) {
+
+		 mangaProvider.getAllMangas(filters, function(response) {
+			 console.log('response', response);
+			 callback(response);
+		 });
 	}
 
 	getMangasByType(type, limit) {

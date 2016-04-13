@@ -4,8 +4,7 @@ const functionClass = require('./../../ressources/functions'),
 	functions = new functionClass(),
 	elasticsearch = require('elasticsearch'),
 	elasticClient = new elasticsearch.Client({
-		host: 'localhost:9200',
-		log: 'trace'
+		host: 'localhost:9200'
 	})
 ;
 
@@ -1699,13 +1698,27 @@ class mangaProvider {
 		];
 	}
 
-	getMangas() {
-		return this.mangas;
+	getMangas(callback) {
+
+		var hits = [];
+
+		elasticClient.search({
+
+			index: 'mangas',
+			type: 'manga'
+
+		}).then(function (resp) {
+			hits = resp.hits.hits;
+			callback(hits);
+
+		}, function (err) {
+			// console.trace(err.message);
+		});
 	}
 
-	getAllMangas(filters) {
+	getAllMangas(filters, callback) {
 
-		if(typeof filters !== "object") filters = {};
+		/*if(typeof filters !== "object") filters = {};
 		if(typeof filters.order !== "undefined") filters.order = 'A-Z';
 		if(typeof filters.limit !== "undefined") filters.limit = 10;
 
@@ -1726,9 +1739,13 @@ class mangaProvider {
 			    if(a.name < b.name) return 1;
 			    return 0;
 			});
-		}
+		}*/
 
-		return mangas;
+		this.getMangas(function(hits) {
+			console.log('----------------');
+			console.log(hits);
+			callback(hits);
+		});
 	}
 
 	getMangasByType(type, limit) {
