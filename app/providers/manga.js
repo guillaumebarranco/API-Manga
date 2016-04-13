@@ -1,6 +1,8 @@
 "use strict";
 
-const functionClass = require('./../../ressources/functions'),
+const request = require('request'),
+	fs = require('fs'),
+	functionClass = require('./../../ressources/functions'),
 	functions = new functionClass(),
 	elasticsearch = require('elasticsearch'),
 	elasticClient = new elasticsearch.Client({
@@ -8,13 +10,22 @@ const functionClass = require('./../../ressources/functions'),
 	})
 ;
 
+Object.size = function(obj) {
+    var size = 0, key;
+    for (key in obj) { if (obj.hasOwnProperty(key)) { size++; } }
+    return size;
+};
+
 class mangaProvider {
 
 	constructor() {
 	}
 
-	getMangas() {
-		return this.mangas;
+	getMangasFromJSON(callback) {
+
+		fs.readFile('ressources/mangas.json', 'utf8', function(err, data) {
+			callback(JSON.parse(data));
+		});
 	}
 
 	getAllMangas(filters, callback) {
@@ -83,7 +94,6 @@ class mangaProvider {
 		}, function (err) {
 			// console.trace(err.message);
 		});
-
 	}
 
 	getMangasByType(type, limit, callback) {
@@ -138,33 +148,43 @@ class mangaProvider {
 
 	recursivelyInsertManga(index, mangas, callback) {
 
-		var manga = mangas[index];
+		if(typeof mangas[index] !== "undefined") {
+			var manga = mangas[index]._source.manga;
 
-		if(index < mangas.length) {
+			if(index < Object.size(mangas)) {
 
-			elasticClient.index({
-		        index: 'mangas',
-		        type: "manga",
-		        body: {
-		            manga: manga
-		        }
-		    });
+				elasticClient.index({
+			        index: 'mangas',
+			        type: "manga",
+			        body: {
+			            manga: manga
+			        }
+			    });
 
-		    index = index + 1;
+			    index = index + 1;
 
-		    this.recursivelyInsertManga(index, mangas, callback);
+			    this.recursivelyInsertManga(index, mangas, callback);
+
+			} else {
+		    	callback();
+			}
 
 		} else {
-	    	callback();
+			callback();
 		}
 	}
 
 	insertAllMangas(callback) {
 
-		var mangas = this.getMangas();
+		this.getMangasFromJSON((mangas) => {
 
-		this.recursivelyInsertManga(0, mangas, function() {
-			callback({status:"success"});
+			this.recursivelyInsertManga(0, mangas, function() {
+
+				callback({
+					status:"success",
+					nbMangas: Object.size(mangas)
+				});
+			});
 		});
 	}
 
