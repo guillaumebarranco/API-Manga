@@ -3,11 +3,7 @@
 const request = require('request'),
 	fs = require('fs'),
 	functionClass = require('./../../ressources/functions'),
-	functions = new functionClass(),
-	elasticsearch = require('elasticsearch'),
-	elasticClient = new elasticsearch.Client({
-		host: 'localhost:9200'
-	})
+	functions = new functionClass()
 ;
 
 Object.size = function(obj) {
@@ -31,12 +27,9 @@ class mangaProvider {
 	getAllMangas(filters, callback) {
 
 		if(typeof filters !== "object") filters = {};
+		if(typeof filters.order !== "undefined") filters.order = 'A-Z';
 
 		/*
-			if(typeof filters.order !== "undefined") filters.order = 'A-Z';
-
-			let mangas = this.getMangas();
-
 			if(filters.order === 'A-Z') {
 
 				mangas = mangas.sort(function(a, b){
@@ -57,7 +50,7 @@ class mangaProvider {
 
 		if(typeof filters.limit === "undefined") filters.limit = 10;
 
-		elasticClient.search({
+		global.elasticClient.search({
 
 			index: 'mangas',
 			type: 'manga',
@@ -74,26 +67,35 @@ class mangaProvider {
 
 	simpleLimitSearch(match, limit, callback) {
 
-		elasticClient.search({
+		if(global.hasInternet) {
 
-			index: 'mangas',
-			type: 'manga',
-			size: limit,
-			body: {
-				query : {
-			      match: {
-			        _all: match
-			      }
-			    }
-			}
+			global.elasticClient.search({
 
-		}).then(function (resp) {
-			var hits = resp.hits.hits;
-			callback(hits);
+				index: 'mangas',
+				type: 'manga',
+				size: limit,
+				body: {
+					query : {
+				      match: {
+				        _all: match
+				      }
+				    }
+				}
 
-		}, function (err) {
-			// console.trace(err.message);
-		});
+			}).then(function (resp) {
+				var hits = resp.hits.hits;
+				callback(hits);
+
+			}, function (err) {
+				callback(err);
+			});
+
+		} else {
+
+			this.getMangasFromJSON(function(mangas) {
+				callback(mangas.slice(mangas.length - limit));
+			});
+		}
 	}
 
 	getMangasByType(type, limit, callback) {
@@ -139,7 +141,7 @@ class mangaProvider {
 	}
 
 	insertManga(manga) {
-		return elasticClient.index({
+		return global.elasticClient.index({
 	        index: 'mangas',
 	        type: "manga",
 	        body: {
@@ -155,7 +157,7 @@ class mangaProvider {
 
 			if(index < Object.size(mangas)) {
 
-				elasticClient.index({
+				global.elasticClient.index({
 			        index: 'mangas',
 			        type: "manga",
 			        body: {
@@ -194,7 +196,7 @@ class mangaProvider {
 
 		console.log('ok');
 
-		elasticClient.indices.delete({
+		global.elasticClient.indices.delete({
 		    index: 'mangas'
 
 		}, function (error, response) {
@@ -206,7 +208,7 @@ class mangaProvider {
 
 		console.log(mangaId);
 
-		elasticClient.delete({
+		global.elasticClient.delete({
 			index: 'mangas',
 			type: 'manga',
 			id: mangaId

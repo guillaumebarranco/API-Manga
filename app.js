@@ -7,6 +7,13 @@ const
 	bodyParser = require('body-parser');
 ;
 
+const elasticsearch = require('elasticsearch');
+global.elasticClient = new elasticsearch.Client({
+    host: 'localhost:9200'
+});
+
+global.hasInternet = false;
+
 var app = express();
 
 class AppFunctions {
@@ -88,5 +95,5 @@ new Routes();
 var server = require('http').Server(app);
 
 server.listen(1208, function() {
-	// console.log('server started');
+	console.log('server started');
 });
