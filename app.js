@@ -4,7 +4,7 @@ const
 	express = require('express'),
 	cookieParser = require('cookie-parser'),
 	cors = require('cors'),
-	bodyParser = require('body-parser');
+	bodyParser = require('body-parser')
 ;
 
 const elasticsearch = require('elasticsearch');
@@ -12,7 +12,13 @@ global.elasticClient = new elasticsearch.Client({
     host: 'localhost:9200'
 });
 
+global.port = 1208;
+
 global.hasInternet = true;
+
+process.argv.forEach(function (val) {
+    if(val.indexOf("--nointernet") > -1) global.hasInternet = false
+});
 
 var app = express();
 
@@ -94,6 +100,6 @@ new Routes();
 
 var server = require('http').Server(app);
 
-server.listen(1208, function() {
-	console.log('server started');
+server.listen(global.port, function() {
+	console.log('server started with hasInternet : ' + global.hasInternet);
 });

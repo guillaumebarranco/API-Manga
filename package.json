@@ -27,7 +27,8 @@
     "gulp-mocha": "^2.2.0",
     "request": "^2.70.0",
     "request-promise": "^2.0.1",
-    "supervisor": "^0.10.0"
+    "supervisor": "^0.10.0",
+    "yargs": "^4.6.0"
   },
   "dependencies": {
     "gulp": "^3.9.1"

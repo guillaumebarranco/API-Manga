@@ -1,32 +1,39 @@
 "use strict";
 
 var assert = require('chai').assert,
-	request = require('request-promise')
+	request = require('request-promise'),
+	utilsClass = require('./../ressources/variables.js'),
+	utils = new utilsClass()
 ;
 
-// describe('Test', function() {
+describe("Test routes GET", function() {
 
-//     it('2 = 2', function () {
-// 		assert.equal(2, 5);
-//     });
-// });
-
-describe("get mangas by type : Shonen", function() {
-
-	let response;
+	let response = [],
+		routes = [
+			'getMangasByType/Shonen/2',
+			'getMangaByName/Death'
+		]
+	;
 
 	beforeEach(function(done){
 
-		request("http://localhost:1208/mangas/getMangasByType/Shonen/2")
-			.then(function(res) {
-				console.log(res[0]._type);
-				response = JSON.parse(res);
-				done();
-			});
+		response = [];
+
+		request(utils.getApiUrl()+"/mangas/"+routes.shift())
+
+		.then(function(res) {
+			response = JSON.parse(res);
+			// console.log(response[0]._source);
+			done();
+		});
 	});
 
-	it("should pass", function(){
+	it("getMangasByType : should return type is manga", function(){
 		assert.equal(response[0]._type, 'manga');
 	});
 
+	it("getMangaByName : should return name as Death Note", function(){
+		assert.equal(response[0]._type, 'manga');
+		assert.equal(response[0]._source.manga.name, 'Death Note');
+	});
 });
