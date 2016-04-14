@@ -12,7 +12,7 @@ global.elasticClient = new elasticsearch.Client({
     host: 'localhost:9200'
 });
 
-global.hasInternet = false;
+global.hasInternet = true;
 
 var app = express();
 

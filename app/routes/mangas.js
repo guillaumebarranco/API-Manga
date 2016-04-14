@@ -33,15 +33,15 @@ router.post('/getAllMangas', function(req, res) {
  * @string type 		: example "shonen"
  * @int limit			: example 10
  */
-// router.get('/getMangasByType/:type/:limit', function(req, res) {
+router.get('/getMangasByType/:type/:limit', function(req, res) {
 
-// 	let type = req.params.type,
-// 		limit = req.params.limit;
+	let type = req.params.type,
+		limit = req.params.limit;
 
-// 	mangaController.getMangasByType(type, limit, function(response) {
-// 		res.status(200).send(response);
-// 	});
-// });
+	mangaController.getMangasByType(type, limit, function(response) {
+		res.status(200).send(response);
+	});
+});
 
 /*
  * GET
