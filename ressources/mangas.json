@@ -13,19 +13,21 @@
                     }
                 ],
                 "closeMangas": [],
-                "description": "",
+                "description": "Naruto est un jeune ninja turbulent et orphelin. Seul depuis tout petit, il multiplie les bêtises en tout genre pour se faire remarquer mais n'en arrive qu'à se faire détester par le village de Konoha. Par le biais de son professeur Iruka et du traître Mizuki, il découvre que cette haine collective n'est autre que le fruit du démon qu'il abrite en lui. Kyubi, le démon renard à neuf queues ayant attaqué le village et scellé en lui par le 4ème Hokage. Mais loin de se laisser abattre, Naruto parvient à devenir un vrai ninja et part en missions accompagné du professeur Kakashi, de son amie Sakura et de son rival, Sasuke Uchiwa.",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "ninja",
-                "logo": "",
+                "logo": "img/naruto.png",
                 "mainHero": {
                     "name": "Naruto"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 72,
                 "nbChapters": 700,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "2014",
                 "publicationStart": "1999",
                 "type": "Shonen"
@@ -46,19 +48,21 @@
                     }
                 ],
                 "closeMangas": [],
-                "description": "",
+                "description": "Des centaines d'années auparavant en Chine, Shin et Hyou sont deux paysans esclaves et le coeur rempli de rêves et d'espoir. Un seul objectif en tête, les deux garçons s'entraînent sans relâche pour devenir Grand Général dans l'armée et ainsi prouver leur force et faire résonner leur nom dans tout le pays. A la suite de la mort de Hyou, Shin jure d'accomplir ce dessein coûte que coûte en accompagnant le jeune Ei Sei qui tente de regagner son trône de roi de Qin, le plus grand état de Chine.",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
-                "keywords": "war, general",
-                "logo": "",
+                "keywords": "war, general, qin, china",
+                "logo": "img/kingdom.png",
                 "mainHero": {
                     "name": "Shin"
                 },
                 "japaneseEditor": "",
-                "frenchEditor": "Glénat",
+                "frenchEditor": "",
                 "nbBooks": 42,
-                "nbChapters": 469,
+                "nbChapters": 470,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "2006",
                 "type": "Seinen"
@@ -75,58 +79,30 @@
                 "name": "Eyeshield 21",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Riichirō Inagaki"
+                    },
+                    {
+                        "name": "Yusuke Murata"
                     }
                 ],
                 "closeMangas": [],
-                "description": "",
+                "description": "Sena Kobayakawa est un jeune lycéen petit et par-dessus tout, craintif. Souffre-douleur et préposé aux basses besognes des Caïds de sa classe, il est constamment en train de courir pour aller chercher ce qu'ils demandent. Un jour, Yoichi Hiruma, terreur du lycée et membre du club de football Américain avec son ami Kurita, s'aperçoit de son extraordinaire vitesse et cherche à tout prix à le recruter dans le club en tant que Running Back. Mais l'amie d'enfance de Sena, Mamori, n'est pas de cet avis.",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "sport, american football",
-                "logo": "",
+                "logo": "img/eyeshield21.png",
                 "mainHero": {
                     "name": "Kobayakawa Sena"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 37,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "publicationEnd": "2000",
-                "publicationStart": "1994",
-                "type": "Shonen"
-            }
-        }
-    },
-    {
-        "_index": "mangas",
-        "_type": "manga",
-        "_id": "AVQP8pHxzTdbq0wiqMe_",
-        "_score": 1,
-        "_source": {
-            "manga": {
-                "name": "Kingdom",
-                "authors": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "closeMangas": [],
-                "description": "",
-                "hasAnime": true,
-                "isFinished": false,
-                "keywords": "",
-                "logo": "",
-                "mainHero": {
-                    "name": "Shin"
-                },
-                "japaneseEditor": "Weekly Shonen Jump",
-                "frenchEditor": "Glénat",
-                "nbBooks": 78,
-                "nbChapters": 822,
-                "nbEpisodes": 0,
-                "publicationEnd": null,
-                "publicationStart": "1994",
+                "nbChapters": 333,
+                "nbEpisodes": 145,
+                "lastUpdate": "16/04/2016",
+                "publicationEnd": "2009",
+                "publicationStart": "2002",
                 "type": "Shonen"
             }
         }
@@ -147,19 +123,21 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "hero, super heroes",
-                "logo": "",
+                "logo": "img/bokunoheroacademia.png",
                 "mainHero": {
                     "name": "Midoriya Izuku"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
-                "nbBooks": 0,
+                "nbBooks": 8,
                 "nbChapters": 86,
-                "nbEpisodes": 0,
+                "nbEpisodes": 13,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
-                "publicationStart": "1994",
+                "publicationStart": "2014",
                 "type": "Shonen"
             }
         }
@@ -180,17 +158,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Corean",
                 "isFinished": true,
-                "keywords": "",
-                "logo": "",
+                "keywords": "video game",
+                "logo": "img/thegamer.jpg",
                 "mainHero": {
-                    "name": ""
+                    "name": "Jee Han est un lycéen tout ce qu'il y a de plus normal. Passionné de jeux vidéos, il se réveille un jour en se découvrant des pouvoirs surnaturels. Le pouvoir du maître de jeu vidéo. Augmentation de son intellect, apprentissage de nouveaux coups, pop-ups pour accepter des défis... Cependant ces pouvoirs vont rapidement lui apprendre l'existence d'un réseau souterrain et empli de clans aux pouvoirs surnaturels."
                 },
                 "japaneseEditor": "",
                 "frenchEditor": "",
-                "nbBooks": 78,
+                "nbBooks": 0,
                 "nbChapters": 123,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -213,17 +193,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/blackclover.jpg",
                 "mainHero": {
                     "name": "Aster"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 51,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "2015",
                 "type": "Shonen"
@@ -246,17 +228,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/nisekoi.png",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 212,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -279,9 +263,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/dreamland.svg",
                 "mainHero": {
                     "name": ""
                 },
@@ -290,6 +275,7 @@
                 "nbBooks": 14,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -303,7 +289,7 @@
         "_score": 1,
         "_source": {
             "manga": {
-                "name": "City Hunte",
+                "name": "City Hunter",
                 "frenchName": "Nicky Larson",
                 "authors": [
                     {
@@ -313,17 +299,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/cityhunter.png",
                 "mainHero": {
                     "name": "Ryo Saeba"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -346,6 +334,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
@@ -357,6 +346,7 @@
                 "nbBooks": 22,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "null",
                 "publicationStart": "1994",
                 "type": "Seinen"
@@ -379,9 +369,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/younggto.gif",
                 "mainHero": {
                     "name": "Eiikichi Onizuka"
                 },
@@ -390,6 +381,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -412,9 +404,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Corea",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/kubera.jpg",
                 "mainHero": {
                     "name": "Kubera"
                 },
@@ -423,6 +416,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -447,17 +441,19 @@
                 ],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "magic",
-                "logo": "",
+                "logo": "img/fairytail.png",
                 "mainHero": {
                     "name": "Natsu Dragnir"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -480,9 +476,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/hinotori.png",
                 "mainHero": {
                     "name": "Hino"
                 },
@@ -491,9 +488,10 @@
                 "nbBooks": 21,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
-                "type": ""
+                "type": "Seinen"
             }
         }
     },
@@ -513,17 +511,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Masashi Rando"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 6,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "null",
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -546,17 +546,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/dragonball.svg",
                 "mainHero": {
                     "name": "Sangoku"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 42,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "null",
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -579,6 +581,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Corea",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
@@ -590,6 +593,7 @@
                 "nbBooks": 0,
                 "nbChapters": 189,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -612,17 +616,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/onepunchman.jpg",
                 "mainHero": {
                     "name": "Saitama"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 2,
                 "nbChapters": 98,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -648,9 +654,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/noblesse.png",
                 "mainHero": {
                     "name": "Cadis Etrama Di Raizel"
                 },
@@ -659,6 +666,7 @@
                 "nbBooks": 0,
                 "nbChapters": 400,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -681,17 +689,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/gto.png",
                 "mainHero": {
                     "name": "Eiikichi Onizuka"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -714,9 +724,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": false,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/towerofgod.png",
                 "mainHero": {
                     "name": ""
                 },
@@ -725,6 +736,7 @@
                 "nbBooks": 0,
                 "nbChapters": 275,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -748,17 +760,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "sport, football",
-                "logo": "",
+                "logo": "img/captaintsubasa.png",
                 "mainHero": {
                     "name": "Tsubasa Ohzora"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -784,17 +798,19 @@
                 ],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "basket, sport",
-                "logo": "",
+                "logo": "img/slamdunk.png",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -817,9 +833,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/darwinsgame.png",
                 "mainHero": {
                     "name": "Sudo Kaname"
                 },
@@ -828,6 +845,7 @@
                 "nbBooks": 0,
                 "nbChapters": 21,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "2015",
                 "type": "Shonen"
@@ -853,17 +871,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/hikarunogo.gif",
                 "mainHero": {
                     "name": "Hikaru"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 23,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -886,17 +906,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/rave.png",
                 "mainHero": {
                     "name": "Haru Glory"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 35,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -919,17 +941,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "sport",
-                "logo": "",
+                "logo": "img/kurokonobasket",
                 "mainHero": {
                     "name": "Kuroko"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -952,17 +976,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/codebreaker.png",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 200,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -987,17 +1013,19 @@
                 ],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "sport",
-                "logo": "",
+                "logo": "img/princeoftennis.png",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1020,17 +1048,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/reborn.jpg",
                 "mainHero": {
                     "name": "Reborn"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1056,17 +1086,19 @@
                 "closeMangas": [],
                 "description": "manga, editor",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/bakuman.jpg",
                 "mainHero": {
                     "name": "Saiko"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 20,
                 "nbChapters": 822,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1089,9 +1121,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/jackals.png",
                 "mainHero": {
                     "name": "Alligator"
                 },
@@ -1100,6 +1133,7 @@
                 "nbBooks": 6,
                 "nbChapters": 56,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Seinen"
@@ -1122,17 +1156,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/magi.png",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 78,
                 "nbChapters": 300,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1155,17 +1191,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/yuyuhakusho.png",
                 "mainHero": {
                     "name": "Yusuke Urameshi"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1188,17 +1226,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/fullmetalalchemist.jpg",
                 "mainHero": {
                     "name": "Edward Elric"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "null",
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1221,17 +1261,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Jako"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 12,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1254,9 +1296,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/gamblefish.png",
                 "mainHero": {
                     "name": "Tomu Shirasagi"
                 },
@@ -1265,6 +1308,7 @@
                 "nbBooks": 0,
                 "nbChapters": 167,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "null",
                 "publicationStart": "",
                 "type": "Ecchi"
@@ -1287,9 +1331,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/tonarinosekikun.png",
                 "mainHero": {
                     "name": "Seki"
                 },
@@ -1298,6 +1343,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1320,9 +1366,10 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/puellamagimadokamagica.png",
                 "mainHero": {
                     "name": "Madoka Kaname"
                 },
@@ -1331,6 +1378,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1353,17 +1401,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "",
+                "logo": "img/nanatsunotaizai.png",
                 "mainHero": {
                     "name": "M"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 167,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1386,6 +1436,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
@@ -1397,6 +1448,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1419,17 +1471,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Yo"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1452,6 +1506,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
@@ -1463,6 +1518,7 @@
                 "nbBooks": 6,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Seinen"
@@ -1485,17 +1541,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Souma Yukihira"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 161,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1518,17 +1576,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1551,6 +1611,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
@@ -1562,6 +1623,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1578,23 +1640,25 @@
                 "name": "One Piece",
                 "authors": [
                     {
-                        "name": "Eiichiro Oda"
+                        "name": "Eiichirō Oda"
                     }
                 ],
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Monkey D. Luffy"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 78,
                 "nbChapters": 822,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1997",
                 "type": "Shonen"
@@ -1617,17 +1681,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "samourai, samurai, sword, vagabond",
                 "logo": "",
                 "mainHero": {
                     "name": "Kenshin Himura"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 28,
                 "nbChapters": 500,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "1999",
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1650,6 +1716,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "gods, manhua",
                 "logo": "",
@@ -1661,6 +1728,7 @@
                 "nbBooks": 0,
                 "nbChapters": 180,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1683,17 +1751,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "food, gourmet, animals",
                 "logo": "",
                 "mainHero": {
                     "name": "Toriko"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 366,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1716,17 +1786,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Jio Freed"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 19,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1749,17 +1821,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Hana Tsukihima"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1782,17 +1856,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Tatsumi"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 69,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Seinen"
@@ -1818,17 +1894,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Raito Yagami"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 12,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1851,17 +1929,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Korosensei"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 78,
                 "nbChapters": 822,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1886,17 +1966,19 @@
                 ],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Kohinata Minoru"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 388,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -1919,17 +2001,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Gon Freecs"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1952,17 +2036,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Oga Tatsumi"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -1985,17 +2071,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 80,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -2018,17 +2106,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Claire"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 155,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2051,17 +2141,19 @@
                 "closeMangas": [],
                 "description": "sport, boxe",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Joe Yabuki"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 20,
                 "nbChapters": 108,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2084,17 +2176,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Gama"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2117,17 +2211,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 172,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2150,17 +2246,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 129,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2186,6 +2284,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
@@ -2197,6 +2296,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -2219,6 +2319,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
@@ -2230,6 +2331,7 @@
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Ecchi"
@@ -2252,6 +2354,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "martial arts, fight",
                 "logo": "",
@@ -2263,6 +2366,7 @@
                 "nbBooks": 61,
                 "nbChapters": 583,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "2014",
                 "publicationStart": "2002",
                 "type": "Ecchi"
@@ -2285,17 +2389,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Yugi Muto"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 37,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2318,17 +2424,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Ichigo Kurosaki"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 669,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2353,6 +2461,7 @@
                 ],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
@@ -2364,6 +2473,7 @@
                 "nbBooks": 0,
                 "nbChapters": 230,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -2386,6 +2496,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
@@ -2397,6 +2508,7 @@
                 "nbBooks": 6,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shojo"
@@ -2419,6 +2531,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
@@ -2430,6 +2543,7 @@
                 "nbBooks": 0,
                 "nbChapters": 134,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2452,6 +2566,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
@@ -2463,6 +2578,7 @@
                 "nbBooks": 0,
                 "nbChapters": 87,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2488,17 +2604,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 2,
                 "nbChapters": 17,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2521,17 +2639,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Boya Harumichi"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": "",
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2554,17 +2674,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Shinichi Kudo"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"
@@ -2587,17 +2709,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
                 "logo": "",
                 "mainHero": {
                     "name": "Ushio Hinomaru"
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 61,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "1994",
                 "type": "Shonen"
@@ -2620,17 +2744,19 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
+                "country": "Japan",
                 "isFinished": false,
                 "keywords": "sport, volleyball",
                 "logo": "",
                 "mainHero": {
                     "name": ""
                 },
-                "japaneseEditor": "Weekly Shonen Jump",
+                "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "nbBooks": 0,
                 "nbChapters": 0,
                 "nbEpisodes": 0,
+                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
                 "publicationStart": "",
                 "type": "Shonen"

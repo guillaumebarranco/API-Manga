@@ -48,7 +48,7 @@ class mangaProvider {
 			}
 		*/
 
-		if(typeof filters.limit === "undefined") filters.limit = 10;
+		if(typeof filters.limit === "undefined") filters.limit = 1000;
 
 		global.elasticClient.search({
 
