@@ -65,13 +65,13 @@ describe("Check all mangas attributes", function() {
 		});
 	});
 
-	it("should return that all mangas have name", function() {
+	it("should return that all mangas have attributes", function() {
 
 		testResponseFirstPart(response);
 		testResponseSecondPart(response);
 		testResponseThirdPart(response);
+		testResponseFourthPart(response);
 	});
-
 });
 
 function testResponseFirstPart(response) {
@@ -145,6 +145,15 @@ function testResponseFirstPart(response) {
 		}
 	}
 
+	// assert.equal(noName.length, 0);
+	// assert.equal(noAuthor.length, 0);
+	// assert.equal(noDescription.length, 0);
+	// assert.equal(noHasAnime.length, 0);
+	// assert.equal(noCountry.length, 0);
+	// assert.equal(noIsFinished.length, 0);
+	// assert.equal(noKeywords.length, 0);
+	// assert.equal(noLogo.length, 0);
+
 	console.log("Vous avez "+response.length+" mangas enregistrés.");
 
 	if(noName.length !== 0) {
@@ -192,51 +201,67 @@ function testResponseSecondPart(response) {
 
 	const
 		noMainHero = [],
+		noFrance = [],
+		noJapan = [],
 		noJapaneseEditor = [],
-		noFrenchEditor = [],
-		noNbBooks = [],
-		noNbChapters = []
+		noFrenchEditor = []
 	;
 
 	/*
 		mainHero
+		france
+		japan
 		japaneseEditor
 		frenchEditor
-		nbBooks
-		nbChapters
 	*/
 
 	for (let i = 0; i < response.length; i++) {
 
 		// mainHero
-		if(typeof response[i]._source.manga.mainHero === "undefined" || response[i]._source.manga.mainHero === "") {
+		if(
+			typeof response[i]._source.manga.mainHero === "undefined"
+			|| typeof response[i]._source.manga.mainHero[0] === "undefined"
+			|| response[i]._source.manga.mainHero[0].name === ""
+		) {
 			noMainHero.push(response[i]._source.manga.name);
 		}
 
-		// japaneseEditor
-		if(typeof response[i]._source.manga.japaneseEditor === "undefined" || response[i]._source.manga.japaneseEditor === "") {
-			noJapaneseEditor.push(response[i]._source.manga.name);
+		// France
+		if(typeof response[i]._source.manga.france === "undefined" || response[i]._source.manga.france === "") {
+			noFrance.push(response[i]._source.manga.name);
+		} else {
+
+			// france.editor
+			if(typeof response[i]._source.manga.france.editor === "undefined" || response[i]._source.manga.france.editor === "") {
+				noFrenchEditor.push(response[i]._source.manga.name);
+			}
 		}
 
-		// frenchEditor
-		if(typeof response[i]._source.manga.frenchEditor === "undefined" || response[i]._source.manga.frenchEditor === "") {
-			noFrenchEditor.push(response[i]._source.manga.name);
-		}
+		// Japan
+		if(typeof response[i]._source.manga.japan === "undefined" || response[i]._source.manga.japan === "") {
+			noJapan.push(response[i]._source.manga.name);
+		} else {
 
-		// nbBooks
-		if(typeof response[i]._source.manga.nbBooks === "undefined" || response[i]._source.manga.nbBooks === "") {
-			noNbBooks.push(response[i]._source.manga.name);
-		}
-
-		// nbChapters
-		if(typeof response[i]._source.manga.nbChapters === "undefined" || response[i]._source.manga.nbChapters === "") {
-			noNbChapters.push(response[i]._source.manga.name);
+			// japan.editor
+			if(typeof response[i]._source.manga.japan.editor === "undefined" || response[i]._source.manga.japan.editor === "") {
+				noJapaneseEditor.push(response[i]._source.manga.name);
+			}
 		}
 	}
 
 	if(noMainHero.length !== 0) {
 		// console.log('noMainHero', noMainHero);
 		console.log("Il manque un champ 'mainHero' à "+noMainHero.length+" mangas");
+	}
+
+	if(noFrance.length !== 0) {
+		// console.log('noFrance', noFrance);
+		console.log("Il manque un champ 'france' à "+noFrance.length+" mangas");
+	}
+
+	if(noJapan.length !== 0) {
+		// console.log('noJapan', noJapan);
+		console.log("Il manque un champ 'japan' à "+noJapan.length+" mangas");
 	}
 
 	if(noJapaneseEditor.length !== 0) {
@@ -248,19 +273,67 @@ function testResponseSecondPart(response) {
 		// console.log('noFrenchEditor', noFrenchEditor);
 		console.log("Il manque un champ 'frenchEditor' à "+noFrenchEditor.length+" mangas");
 	}
-
-	if(noNbBooks.length !== 0) {
-		// console.log('noNbBooks', noNbBooks);
-		console.log("Il manque un champ 'nbBooks' à "+noNbBooks.length+" mangas");
-	}
-
-	if(noNbChapters.length !== 0) {
-		// console.log('noNbChapters', noNbChapters);
-		console.log("Il manque un champ 'noNbChapters' à "+noNbChapters.length+" mangas");
-	}
 }
 
 function testResponseThirdPart(response) {
+
+	const
+		noFrenchNbBooks = [],
+		noJapaneseNbBooks = [],
+		noJapaneseNbChapters = []
+	;
+
+	/*
+		nbFrenchBooks
+		noJapaneseNbBooks
+		noJapaneseNbChapters
+	*/
+
+	for (let i = 0; i < response.length; i++) {
+
+		if(typeof response[i]._source.manga.france === "undefined" || response[i]._source.manga.france === "") {
+
+		} else {
+
+			// nbBooks
+			if(typeof response[i]._source.manga.france.nbBooks === "undefined" || response[i]._source.manga.france.nbBooks === 0) {
+				noFrenchNbBooks.push(response[i]._source.manga.name);
+			}
+		}
+
+		if(typeof response[i]._source.manga.japan === "undefined" || response[i]._source.manga.japan === "") {
+
+		} else {
+
+			// nbBooks
+			if(typeof response[i]._source.manga.japan.nbBooks === "undefined" || response[i]._source.manga.japan.nbBooks === 0) {
+				noJapaneseNbBooks.push(response[i]._source.manga.name);
+			}
+
+			// nbChapters
+			if(typeof response[i]._source.manga.japan.nbChapters === "undefined" || response[i]._source.manga.japan.nbChapters === 0) {
+				noJapaneseNbChapters.push(response[i]._source.manga.name);
+			}
+		}
+	}
+
+	if(noFrenchNbBooks.length !== 0) {
+		// console.log('noFrenchNbBooks', noFrenchNbBooks);
+		console.log("Il manque un champ 'france.nbBooks' à "+noFrenchNbBooks.length+" mangas");
+	}
+
+	if(noJapaneseNbBooks.length !== 0) {
+		// console.log('noJapaneseNbBooks', noJapaneseNbBooks);
+		console.log("Il manque un champ 'japan.nbBooks' à "+noJapaneseNbBooks.length+" mangas");
+	}
+
+	if(noJapaneseNbChapters.length !== 0) {
+		// console.log('noJapaneseNbChapters', noJapaneseNbChapters);
+		console.log("Il manque un champ 'japan.nbChapters' à "+noJapaneseNbChapters.length+" mangas");
+	}
+}
+
+function testResponseFourthPart(response) {
 
 	const
 		noNbEpisodes = [],
@@ -281,7 +354,7 @@ function testResponseThirdPart(response) {
 	for (let i = 0; i < response.length; i++) {
 
 		// nbEpisodes
-		if(typeof response[i]._source.manga.nbEpisodes === "undefined" || response[i]._source.manga.nbEpisodes === "") {
+		if(typeof response[i]._source.manga.nbEpisodes === "undefined" || response[i]._source.manga.nbEpisodes === 0) {
 			noNbEpisodes.push(response[i]._source.manga.name);
 		}
 
