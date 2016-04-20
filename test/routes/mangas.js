@@ -57,10 +57,7 @@ describe("Check all mangas attributes", function() {
 		request(options)
 
 		.then(function(res) {
-			// console.log(res);
-			// response = JSON.parse(res);
 			response = res;
-			// console.log(response[0]);
 			done();
 		});
 	});
