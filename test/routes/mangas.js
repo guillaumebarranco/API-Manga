@@ -217,8 +217,7 @@ function testResponseSecondPart(response) {
 		// mainHero
 		if(
 			typeof response[i]._source.manga.mainHero === "undefined"
-			|| typeof response[i]._source.manga.mainHero[0] === "undefined"
-			|| response[i]._source.manga.mainHero[0].name === ""
+			|| response[i]._source.manga.mainHero.name === ""
 		) {
 			noMainHero.push(response[i]._source.manga.name);
 		}
@@ -247,7 +246,7 @@ function testResponseSecondPart(response) {
 	}
 
 	if(noMainHero.length !== 0) {
-		// console.log('noMainHero', noMainHero);
+		console.log('noMainHero', noMainHero);
 		console.log("Il manque un champ 'mainHero' à "+noMainHero.length+" mangas");
 	}
 
