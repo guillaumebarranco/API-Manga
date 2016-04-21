@@ -641,19 +641,19 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/dragonball.svg",
+                "logo": "img/france.png",
                 "mainHero": {
                     "name": "Sangoku"
                 },
                 "france": {
                     "editor": "Glénat",
                     "nbBooks": 42,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 42,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
@@ -692,12 +692,12 @@
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
@@ -740,12 +740,12 @@
                 "france": {
                     "editor": "Kurokawa",
                     "nbBooks": 2,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 2,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 98,
                     "publicationEnd": null,
                     "publicationStart": "1994"
@@ -873,7 +873,7 @@
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 275,
                     "publicationEnd": null,
                     "publicationStart": "1994"
@@ -1040,12 +1040,12 @@
                 "france": {
                     "editor": "Tonkam",
                     "nbBooks": 23,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 23,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
@@ -1830,32 +1830,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Souma Yukihira"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/shokugekinosoma.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
+                    "logo": "img/japan/shokugekinosoma.png",
+                    "nbChapters": 161,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 161,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -1881,32 +1871,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Shu"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/bluedragon.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/japan/bluedragon.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
-                    "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                    "publicationStart": ""
+                }
             }
         }
     },
@@ -1932,32 +1912,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Shinobi Mantaro"
                 },
-                "japaneseEditor": "",
-                "frenchEditor": "",
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2024,30 +1994,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Kenshin Himura"
                 },
                 "france": {
                     "editor": "Glénat",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "nbBooks": 28,
+                    "logo": "img/france/kenshinlevagabond.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "nbBooks": 28,
+                    "logo": "img/japan/kenshinlevagabond.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "publicationEnd": "1999",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 28,
-                "nbChapters": 500,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "1999",
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2073,32 +2035,24 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Ah Gou"
                 },
                 "japaneseEditor": "",
                 "frenchEditor": "",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/fengshenji.svg"
                 },
-                "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                "china" : {
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "logo": "img/china/fengshenji.svg",
+                    "nbChapters": 180,
+                    "publicationEnd": "2016",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 180,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2124,32 +2078,24 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Toriko"
                 },
                 "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/toriko.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "logo": "img/japan/toriko.png",
+                    "nbChapters": 366,
+                    "publicationEnd": null,
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 366,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2175,30 +2121,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Jio Freed"
                 },
                 "france": {
                     "editor": "Kurokawa",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "nbBooks": 19,
+                    "logo": "img/france/satan666.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "nbBooks": 19,
+                    "logo": "img/japan/satan666.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 19,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2224,32 +2162,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Hana Tsukihima"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/worst.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/japan/worst.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2275,32 +2203,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Tatsumi"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/akamegakill.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
+                    "logo": "img/japan/akamegakill.png",
+                    "nbChapters": 69,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 69,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Seinen"
+                }
             }
         }
     },
@@ -2329,30 +2247,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Raito Yagami"
                 },
                 "france": {
                     "editor": "Kana",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "nbBooks": 13,
+                    "logo": "img/france.png"
                 },
-                "japan" : {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                "japan": {
+                    "editor": "",
+                    "nbBooks": 13,
+                    "logo": "img/france.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "publicationEnd": null,
                     "publicationStart": "1994"
-                },
-                "nbBooks": 12,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2378,32 +2288,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Korosensei"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/assassinationclassroom.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/japan/assassinationclassroom.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 78,
-                "nbChapters": 822,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2431,32 +2331,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Kohinata Minoru"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/kohinataminoru.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
+                    "logo": "img/japan/kohinataminoru.png",
+                    "nbChapters": 388,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 388,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2482,30 +2372,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Gon Freecs"
                 },
                 "france": {
                     "editor": "Kana",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/hunterxhunter.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/japan/hunterxhunter.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "publicationEnd": null,
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2531,32 +2413,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Oga Tatsumi"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/beelzebub.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/japan/beelzebub.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2581,33 +2453,23 @@
                 "keywords": "",
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
-                "type": "Shonen",
-                "logo": "img/",
+                "type": "Seinen",
                 "mainHero": {
                     "name": "Eren Jaeger"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france/shingekinokyojin.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "logo": "img/japan/shingekinokyojin.png",
+                    "nbChapters": 80,
+                    "publicationEnd": null,
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 80,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2642,12 +2504,12 @@
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
@@ -2693,12 +2555,12 @@
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
@@ -2744,12 +2606,12 @@
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
@@ -2786,32 +2648,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Shôkichi Komachi"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 172,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 172,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2837,32 +2689,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Yûma Kuga"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 129,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 129,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2891,32 +2733,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Li Shioon"
                 },
-                "japaneseEditor": "",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
-                "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                "corea" : {
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -2941,33 +2773,23 @@
                 "keywords": "",
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
-                "type": "Shonen",
-                "logo": "img/",
+                "type": "Ecchi",
                 "mainHero": {
                     "name": "Yoichi Karasuma"
                 },
-                "japaneseEditor": "",
-                "frenchEditor": "",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Ecchi"
+                }
             }
         }
     },
@@ -2993,30 +2815,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Shirahama Kenichi"
                 },
                 "france": {
                     "editor": "Kurokawa",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "nbBooks": 61,
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
-                },
-                "nbBooks": 61,
-                "nbChapters": 583,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "2014",
-                "publicationStart": "2002",
-                "type": "Ecchi"
+                    "editor": "",
+                    "nbBooks": 61,
+                    "logo": "img/japan.png",
+                    "nbChapters": 583,
+                    "publicationEnd": "2014",
+                    "publicationStart": "2002"
+                }
             }
         }
     },
@@ -3042,30 +2856,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Yugi Muto"
                 },
                 "france": {
                     "editor": "Kana",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "nbBooks": 37,
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "nbBooks": 37,
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 37,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -3091,30 +2897,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Ichigo Kurosaki"
                 },
                 "france": {
                     "editor": "Glénat",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 670,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 669,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -3142,32 +2940,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Song Jae Gu"
                 },
-                "japaneseEditor": "",
-                "frenchEditor": "",
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
-                "japan" : {
+                "corea" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "logo": "img/france.png",
+                    "nbChapters": 230,
+                    "publicationEnd": null,
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 230,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -3200,25 +2988,18 @@
                 "japaneseEditor": "",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "editor": "",
+                    "nbBooks": 6,
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
+                    "editor": "",
+                    "nbBooks": 6,
+                    "logo": "img/france.png",
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 6,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shojo"
+                }
             }
         }
     },
@@ -3244,32 +3025,22 @@
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Dongtae"
                 },
-                "japaneseEditor": "",
-                "frenchEditor": "",
                 "france": {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
-                "japan" : {
+                "corea" : {
                     "editor": "Weekly Shōnen Jump",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 134,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 134,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -3292,32 +3063,22 @@
                 "country": "Japan",
                 "isFinished": false,
                 "keywords": "",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Dr Frost"
                 },
-                "japaneseEditor": "",
-                "frenchEditor": "",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
-                "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                "corea" : {
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
+                    "logo": "img/france.png",
+                    "nbChapters": 87,
+                    "publicationEnd": null,
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 87,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -3343,30 +3104,22 @@
                 "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Keiji Kiriya"
                 },
                 "france": {
                     "editor": "Kazé",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "nbBooks": 2,
+                    "logo": "img/france.png"
                 },
                 "japan" : {
                     "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "logo": "img/dragonball.svg",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
-                },
-                "nbBooks": 2,
-                "nbChapters": 17,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "",
-                "type": "Shonen"
+                    "nbBooks": 2,
+                    "logo": "img/france.png",
+                    "nbChapters": 17,
+                    "publicationEnd": "2014",
+                    "publicationStart": "2014"
+                }
             }
         }
     },
@@ -3389,31 +3142,21 @@
                 "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Boya Harumichi"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": "",
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -3436,29 +3179,21 @@
                 "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Shinichi Kudo"
                 },
                 "france": {
                     "editor": "Kana",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
                     "nbChapters": 0,
                     "publicationEnd": "null",
                     "publicationStart": "1994"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                }
             }
         }
     },
@@ -3488,20 +3223,17 @@
                 "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
-                    "logo": "img/dragonball.svg"
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump"
-                },
-                "nbBooks": 0,
-                "nbChapters": 61,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "1994",
-                "type": "Shonen"
+                    "editor": "Weekly Shōnen Jump",
+                    "nbBooks": 0,
+                    "nbChapters": 61,
+                    "publicationEnd": "null",
+                    "publicationStart": "1994"
+                }
             }
         }
     },
@@ -3524,25 +3256,21 @@
                 "country": "Japan",
                 "isFinished": false,
                 "keywords": "sport, volleyball",
-                "logo": "img/",
                 "mainHero": {
                     "name": "Shōyō Hinata"
                 },
-                "japaneseEditor": "Weekly Shōnen Jump",
-                "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump"
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump"
-                },
-                "nbBooks": 0,
-                "nbChapters": 0,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                    "editor": "Weekly Shōnen Jump",
+                    "nbBooks": 0,
+                    "nbChapters": 0,
+                    "publicationEnd": "null",
+                    "publicationStart": "1994"
+                }
             }
         }
     }
