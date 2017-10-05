@@ -182,7 +182,7 @@
                 "closeMangas": [],
                 "description": "Jee Han est un lycéen tout ce qu'il y a de plus normal. Passionné de jeux vidéos, il se réveille un jour en se découvrant des pouvoirs surnaturels. Le pouvoir du maître de jeu vidéo. Augmentation de son intellect, apprentissage de nouveaux coups, pop-ups pour accepter des défis... Cependant ces pouvoirs vont rapidement lui apprendre l'existence d'un réseau souterrain et empli de clans aux pouvoirs surnaturels.",
                 "hasAnime": true,
-                "country": "Corean",
+                "country": "Corea",
                 "isFinished": true,
                 "keywords": "video game",
                 "lastUpdate": "16/04/2016",
@@ -196,7 +196,7 @@
                     "logo": "img/thegamer.jpg",
                     "nbBooks": 0
                 },
-                "japan" : {
+                "corea" : {
                     "editor": "",
                     "logo": "img/thegamer.jpg",
                     "nbBooks": 0,
@@ -483,7 +483,7 @@
                 },
                 "corea" : {
                     "editor": "",
-                    "logo": "imZg/japan/kubera.jpg",
+                    "logo": "img/japan/kubera.jpg",
                     "nbBooks": 0,
                     "nbChapters": 0,
                     "publicationEnd": null,
@@ -3273,5 +3273,81 @@
                 }
             }
         }
-    }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 1,
+        "_source": {
+            "manga": {
+                "name": "Unordinary",
+                "authors": [
+                    {
+                        "name": "uru-chan"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": false,
+                "country": "Corea",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": "John Doe"
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "corea" : {
+                    "editor": "Naver",
+                    "nbBooks": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 66,
+                    "publicationEnd": null,
+                    "publicationStart": "2016"
+                }
+            }
+        }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 1,
+        "_source": {
+            "manga": {
+                "name": "I Love Yoo",
+                "authors": [
+                    {
+                        "name": "Quimchee"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": false,
+                "country": "Corea",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": "Shin-Ae"
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "corea" : {
+                    "editor": "Naver",
+                    "nbBooks": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 23,
+                    "publicationEnd": null,
+                    "publicationStart": "2017"
+                }
+            }
+        }
+    },
 ]
