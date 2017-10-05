@@ -3,7 +3,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pBozTdbq0wiqMev",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Naruto",
@@ -18,7 +18,7 @@
                 "hasAnime": true,
                 "isFinished": true,
                 "keywords": "ninja",
-                "lastUpdate": "16/04/2016",
+                "lastUpdate": "05/10/2017",
                 "nbEpisodes": 0,
                 "type": "Shonen",
                 "mainHero": {
@@ -30,7 +30,8 @@
                     "nbBooks": 72
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 72,
                     "logo": "img/japan/naruto.png",
                     "nbChapters": 700,
@@ -44,7 +45,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pB8zTdbq0wiqMe2",
-        "_score": 1,
+        "_score": 7.5,
         "_source": {
             "manga": {
                 "name": "Kingdom",
@@ -59,7 +60,7 @@
                 "hasAnime": true,
                 "isFinished": false,
                 "keywords": "war, general, qin, china",
-                "lastUpdate": "16/04/2016",
+                "lastUpdate": "05/10/2017",
                 "nbEpisodes": 0,
                 "type": "Seinen",
                 "mainHero": {
@@ -68,12 +69,13 @@
                 "france": {
                     "editor": "",
                     "logo": "img/france/kingdom.png",
-                    "nbBooks": 42
+                    "nbBooks": 0
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
-                    "nbChapters": 470,
+                    "editor": "Shueisha",
+                    "magazine": "Weekly Young Jump",
+                    "nbBooks": 49,
+                    "nbChapters": 532,
                     "publicationEnd": null,
                     "publicationStart": "2006",
                     "logo": "img/japan/kingdom.png"
@@ -85,7 +87,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pCEzTdbq0wiqMe3",
-        "_score": 1,
+        "_score": 8.5,
         "_source": {
             "manga": {
                 "name": "Eyeshield 21",
@@ -115,7 +117,8 @@
                     "nbBooks": 37
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/eyeshield21.png",
                     "nbBooks": 37,
                     "nbChapters": 333,
@@ -129,7 +132,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pJizTdbq0wiqMfG",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Boku No Hero Academia",
@@ -144,22 +147,24 @@
                 "country": "Japan",
                 "isFinished": false,
                 "keywords": "hero, super heroes",
-                "lastUpdate": "16/04/2016",
+                "lastUpdate": "05/10/2017",
                 "nbEpisodes": 13,
                 "type": "Shonen",
                 "mainHero": {
                     "name": "Midoriya Izuku"
                 },
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/bokunoheroacademia.png",
                     "nbBooks": 8
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/bokunoheroacademia.png",
-                    "nbBooks": 8,
-                    "nbChapters": 86,
+                    "nbBooks": 15,
+                    "nbChapters": 153,
                     "publicationEnd": null,
                     "publicationStart": "2014"
                 }
@@ -170,7 +175,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pKOzTdbq0wiqMfJ",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "The Gamer",
@@ -185,7 +190,7 @@
                 "country": "Corea",
                 "isFinished": true,
                 "keywords": "video game",
-                "lastUpdate": "16/04/2016",
+                "lastUpdate": "05/10/2017",
                 "nbEpisodes": 0,
                 "type": "Shonen",                
                 "mainHero": {
@@ -197,12 +202,12 @@
                     "nbBooks": 0
                 },
                 "corea" : {
-                    "editor": "",
+                    "editor": "Naver",
                     "logo": "img/thegamer.jpg",
                     "nbBooks": 0,
-                    "nbChapters": 123,
+                    "nbChapters": 193,
                     "publicationEnd": null,
-                    "publicationStart": "1994"
+                    "publicationStart": "2013"
                 }
             }
         }
@@ -238,8 +243,9 @@
                     "logo": "img/france/blackclover.jpg"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
+                    "nbBooks": 11,
                     "logo": "img/japan/blackclover.jpg",
                     "nbChapters": 51,
                     "publicationEnd": null,
@@ -252,7 +258,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pKszTdbq0wiqMfL",
-        "_score": 1,
+        "_score": 4.5,
         "_source": {
             "manga": {
                 "name": "Nisekoi",
@@ -279,7 +285,8 @@
                     "nbBooks": 0
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/nisekoi.png",
                     "nbBooks": 0,
                     "nbChapters": 212,
@@ -293,7 +300,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pNEzTdbq0wiqMfZ",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Dreamland",
@@ -309,7 +316,7 @@
                 "isFinished": true,
                 "keywords": "",
                 "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
+                "lastUpdate": "05/10/2017",
                 "type": "Shonen",
                 "mainHero": {
                     "name": "Terrence Meyer"
@@ -317,7 +324,7 @@
                 "france": {
                     "editor": "Pika",
                     "logo": "img/france/dreamland.svg",
-                    "nbBooks": 14,
+                    "nbBooks": 16,
                     "nbChapters": 0,
                     "publicationEnd": null,
                     "publicationStart": ""
@@ -329,7 +336,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pPZzTdbq0wiqMfk",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "City Hunter",
@@ -354,12 +361,14 @@
                 "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/france/cityhunter.png",
                     "nbBooks": 0
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/japan/cityhunter.png",
                     "nbBooks": 0,
                     "nbChapters": 0,
@@ -373,7 +382,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pP7zTdbq0wiqMfp",
-        "_score": 1,
+        "_score": 5,
         "_source": {
             "manga": {
                 "name": "Saru Lock",
@@ -414,7 +423,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pQnzTdbq0wiqMfv",
-        "_score": 1,
+        "_score": 4,
         "_source": {
             "manga": {
                 "name": "Young GTO",
@@ -441,7 +450,8 @@
                     "nbBooks": 0
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/younggto.gif",
                     "nbBooks": 0,
                     "nbChapters": 0,
@@ -455,7 +465,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pQ6zTdbq0wiqMfx",
-        "_score": 1,
+        "_score": 3.5,
         "_source": {
             "manga": {
                 "name": "Kubera",
@@ -496,7 +506,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pRszTdbq0wiqMf1",
-        "_score": 1,
+        "_score": 4,
         "_source": {
             "manga": {
                 "name": "Fairy Tail",
@@ -525,7 +535,8 @@
                     "nbBooks": 0
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/japan/fairytail.png",
                     "nbBooks": 0,
                     "nbChapters": 0,
@@ -539,7 +550,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pSfzTdbq0wiqMf4",
-        "_score": 1,
+        "_score": 5,
         "_source": {
             "manga": {
                 "name": "Hi No Tori",
@@ -566,7 +577,8 @@
                     "nbBooks": 21
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/japan/hinotori.png",
                     "nbBooks": 21,
                     "nbChapters": 0,
@@ -580,7 +592,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pB3zTdbq0wiqMew",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Pretty Face",
@@ -609,7 +621,8 @@
                     "nbBooks": 6
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "logo": "img/",
                     "nbBooks": 6,
                     "nbChapters": 0,
@@ -623,7 +636,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pB8zTdbq0wiqMe0",
-        "_score": 1,
+        "_score": 7.5,
         "_source": {
             "manga": {
                 "name": "Dragon Ball",
@@ -651,7 +664,8 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 42,
                     "logo": "img/france.png",
                     "nbChapters": 0,
@@ -665,7 +679,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pGjzTdbq0wiqMe6",
-        "_score": 1,
+        "_score": 4.5,
         "_source": {
             "manga": {
                 "name": "Red Storm",
@@ -690,12 +704,14 @@
                 "japaneseEditor": "",
                 "frenchEditor": "",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 0,
@@ -716,7 +732,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pHuzTdbq0wiqMe-",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "OnePunch-Man",
@@ -739,12 +755,13 @@
                 },
                 "france": {
                     "editor": "Kurokawa",
-                    "nbBooks": 2,
+                    "nbBooks": 8,
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 2,
+                    "magazine": "Tonari no Young Jump",
+                    "editor": "Shueisha",
+                    "nbBooks": 14,
                     "logo": "img/france.png",
                     "nbChapters": 98,
                     "publicationEnd": null,
@@ -757,7 +774,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pKwzTdbq0wiqMfM",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Noblesse",
@@ -783,17 +800,17 @@
                     "name": "Cadis Etrama Di Raizel"
                 },
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "",
                     "nbBooks": 0,
                     "logo": "img/noblesse.png"
                 },
                 "corea" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "editor": "Naver",
                     "nbBooks": 0,
                     "logo": "img/corea/noblesse.png",
                     "nbChapters": 400,
                     "publicationEnd": null,
-                    "publicationStart": "1994"
+                    "publicationStart": "2007"
                 }
             }
         }
@@ -802,7 +819,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pL5zTdbq0wiqMfT",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "GTO",
@@ -829,12 +846,13 @@
                     "logo": "img/france/gto.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/gto.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "2002",
+                    "publicationStart": "1997"
                 }
             }
         }
@@ -843,7 +861,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pM7zTdbq0wiqMfY",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Tower Of God",
@@ -855,7 +873,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": false,
-                "country": "Japan",
+                "country": "Corea",
                 "isFinished": false,
                 "keywords": "",
                 "nbEpisodes": 0,
@@ -870,13 +888,13 @@
                     "nbBooks": 0,
                     "logo": "img/france/towerofgod.png"
                 },
-                "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                "corea" : {
+                    "editor": "Naver",
                     "nbBooks": 0,
                     "logo": "img/france.png",
-                    "nbChapters": 275,
+                    "nbChapters": 349,
                     "publicationEnd": null,
-                    "publicationStart": "1994"
+                    "publicationStart": "2010"
                 }
             }
         }
@@ -885,7 +903,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pMSzTdbq0wiqMfU",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Captain Tsubasa",
@@ -913,12 +931,13 @@
                     "logo": "img/france/captaintsubasa.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 37,
                     "logo": "img/japan/captaintsubasa.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "1988",
+                    "publicationStart": "1981"
                 }
             }
         }
@@ -927,7 +946,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pN9zTdbq0wiqMfd",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Slam Dunk",
@@ -953,16 +972,17 @@
                 },
                 "france": {
                     "editor": "",
-                    "nbBooks": 0,
+                    "nbBooks": 31,
                     "logo": "img/france/slamdunk.png"
                 },
                 "japan": {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
+                    "nbBooks": 31,
                     "logo": "img/japan/slamdunk.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "1996",
+                    "publicationStart": "1990"
                 }
             }
         }
@@ -971,7 +991,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pPZzTdbq0wiqMfl",
-        "_score": 1,
+        "_score": 5,
         "_source": {
             "manga": {
                 "name": "Darwin's Game",
@@ -998,7 +1018,8 @@
                     "logo": "img/darwinsgame.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/darwinsgame.png",
                     "nbChapters": 21,
@@ -1012,13 +1033,13 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pP7zTdbq0wiqMfo",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Hikaru No Go",
                 "authors": [
                     {
-                        "name": "Takeshi Obata"
+                        "name": "Yumi Hotta"
                     },
                     {
                         "name": "Tsugumi Ohba"
@@ -1043,12 +1064,13 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 23,
                     "logo": "img/france.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "2003",
+                    "publicationStart": "1998"
                 }
             }
         }
@@ -1057,7 +1079,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pQ6zTdbq0wiqMfw",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "Rave",
@@ -1084,12 +1106,13 @@
                     "logo": "img/france/rave.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 35,
                     "logo": "img/japan/rave.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "2005",
+                    "publicationStart": "1999"
                 }
             }
         }
@@ -1098,7 +1121,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pRfzTdbq0wiqMfz",
-        "_score": 1,
+        "_score": 4.5,
         "_source": {
             "manga": {
                 "name": "Kuroko No Basket",
@@ -1125,12 +1148,13 @@
                     "logo": "img/kurokonobasket.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/kurokonobasket.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "2014",
+                    "publicationStart": "2008"
                 }
             }
         }
@@ -1139,7 +1163,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pRozTdbq0wiqMf0",
-        "_score": 1,
+        "_score": 4,
         "_source": {
             "manga": {
                 "name": "Code:breaker",
@@ -1167,7 +1191,8 @@
                     "logo": "img/france/codebreaker.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/codebreaker.png",
                     "nbChapters": 200,
@@ -1181,7 +1206,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pSizTdbq0wiqMf5",
-        "_score": 1,
+        "_score": 3,
         "_source": {
             "manga": {
                 "name": "Prince of Tennis",
@@ -1210,7 +1235,8 @@
                     "logo": "img/france/princeoftennis.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/princeoftennis.png",
                     "nbChapters": 0,
@@ -1224,7 +1250,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pTMzTdbq0wiqMf7",
-        "_score": 1,
+        "_score": 3.5,
         "_source": {
             "manga": {
                 "name": "Reborn",
@@ -1252,7 +1278,8 @@
                     "logo": "img/france/reborn.jpg"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/reborn.jpg",
                     "nbChapters": 0,
@@ -1266,7 +1293,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pB4zTdbq0wiqMex",
-        "_score": 1,
+        "_score": 8.5,
         "_source": {
             "manga": {
                 "name": "Bakuman",
@@ -1275,7 +1302,7 @@
                         "name": "Takeshi Obata"
                     },
                     {
-                        "name": "Tsugumi Ohba"
+                        "name": "Tsugumi Ōba"
                     }
                 ],
                 "closeMangas": [],
@@ -1296,12 +1323,13 @@
                     "logo": "img/france/bakuman.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 20,
                     "logo": "img/japan/bakuman.png",
                     "nbChapters": 822,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "2012",
+                    "publicationStart": "2008"
                 }
             }
         }
@@ -1310,7 +1338,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pB8zTdbq0wiqMe1",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Jackals",
@@ -1338,7 +1366,8 @@
                     "logo": "img/france/jackals.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 6,
                     "logo": "img/japan/jackals.png",
                     "nbChapters": 56,
@@ -1352,7 +1381,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pGwzTdbq0wiqMe7",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Magi The Labyrinth of Magic",
@@ -1380,7 +1409,8 @@
                     "logo": "img/frane/magi.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/magi.png",
                     "nbChapters": 300,
@@ -1394,13 +1424,13 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pKIzTdbq0wiqMfH",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Yu Yu Hakusho",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yoshihiro Togashi"
                     }
                 ],
                 "closeMangas": [],
@@ -1416,17 +1446,18 @@
                     "name": "Yusuke Urameshi"
                 },
                 "france": {
-                    "editor": "",
+                    "editor": "Kana",
                     "nbBooks": 0,
                     "logo": "img/france/yuyuhakusho.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/yuyuhakusho.png",
                     "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "1994",
+                    "publicationStart": "1990"
                 }
             }
         }
@@ -1435,7 +1466,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pLgzTdbq0wiqMfP",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Fullmetal Alchemist",
@@ -1462,7 +1493,8 @@
                     "logo": "img/france/fullmetalalchemist.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/fullmetalalchemist.png",
                     "nbChapters": 0,
@@ -1476,7 +1508,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pLhzTdbq0wiqMfR",
-        "_score": 1,
+        "_score": 5,
         "_source": {
             "manga": {
                 "name": "Ginga Patrol Jako",
@@ -1503,7 +1535,8 @@
                     "logo": "img/france/gingapatroljako.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/gingapatroljako.png",
                     "nbChapters": 12,
@@ -1517,7 +1550,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pMWzTdbq0wiqMfV",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Gamble fish",
@@ -1544,12 +1577,13 @@
                     "logo": "img/france/gamblefish.png"
                 },
                 "japan" : {
-                    "editor": "",
-                    "nbBooks": 0,
+                    "editor": "Akita Shoten",
+                    "magazine": "Weekly Shōnen Champion",
+                    "nbBooks": 19,
                     "logo": "img/japan/gamblefish.png",
                     "nbChapters": 167,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
+                    "publicationEnd": "2010",
+                    "publicationStart": "2007"
                 }
             }
         }
@@ -1558,7 +1592,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pMvzTdbq0wiqMfX",
-        "_score": 1,
+        "_score": 4,
         "_source": {
             "manga": {
                 "name": "Tonari no Seki-kun",
@@ -1601,7 +1635,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pNzzTdbq0wiqMfc",
-        "_score": 1,
+        "_score": 5,
         "_source": {
             "manga": {
                 "name": "Puella Magi Madoka Magica",
@@ -1625,12 +1659,14 @@
                 "japaneseEditor": "",
                 "frenchEditor": "",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france/puellamagimadokamagica.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/puellamagimadokamagica.png",
                     "nbChapters": 0,
@@ -1644,7 +1680,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pN_zTdbq0wiqMfe",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Nanatsu No Taizai",
@@ -1668,12 +1704,14 @@
                 "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france/nanatsunotaizai.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/nanatsunotaizai.png",
                     "nbChapters": 167,
@@ -1687,7 +1725,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pO8zTdbq0wiqMfj",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Black Cat",
@@ -1714,7 +1752,8 @@
                     "logo": "img/france/blackcat.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/blackcat.png",
                     "nbChapters": 0,
@@ -1728,7 +1767,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pP7zTdbq0wiqMfr",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "Shaman king",
@@ -1755,7 +1794,8 @@
                     "logo": "img/france/shamanking.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/shamanking.png",
                     "nbChapters": 0,
@@ -1769,7 +1809,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pQjzTdbq0wiqMfu",
-        "_score": 1,
+        "_score": 4,
         "_source": {
             "manga": {
                 "name": "Doubt",
@@ -1793,12 +1833,14 @@
                 "japaneseEditor": "",
                 "frenchEditor": "",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 6,
                     "logo": "img/france/doubt.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 6,
                     "logo": "img/japan/doubt.png",
                     "nbChapters": 0,
@@ -1812,7 +1854,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pR8zTdbq0wiqMf2",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Shokugeki no Soma",
@@ -1839,7 +1881,8 @@
                     "logo": "img/france/shokugekinosoma.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/shokugekinosoma.png",
                     "nbChapters": 161,
@@ -1853,7 +1896,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pTbzTdbq0wiqMf8",
-        "_score": 1,
+        "_score": 4.5,
         "_source": {
             "manga": {
                 "name": "Blue Dragon",
@@ -1894,7 +1937,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pTzzTdbq0wiqMf9",
-        "_score": 1,
+        "_score": 3,
         "_source": {
             "manga": {
                 "name": "Blazing Ninjaman",
@@ -1916,12 +1959,14 @@
                     "name": "Shinobi Mantaro"
                 },
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 0,
@@ -1935,7 +1980,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pB8zTdbq0wiqMez",
-        "_score": 1,
+        "_score": 10,
         "_source": {
             "manga": {
                 "name": "One Piece",
@@ -1962,10 +2007,11 @@
                     "logo": "img/onepiece.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 81,
                     "logo": "img/onepiece.png",
-                    "nbChapters": 822,
+                    "nbChapters": 852,
                     "publicationEnd": null,
                     "publicationStart": "1997"
                 }
@@ -1976,7 +2022,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pCIzTdbq0wiqMe5",
-        "_score": 1,
+        "_score": 9,
         "_source": {
             "manga": {
                 "name": "Kenshin le Vagabond",
@@ -2003,7 +2049,8 @@
                     "logo": "img/france/kenshinlevagabond.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 28,
                     "logo": "img/japan/kenshinlevagabond.png",
                     "nbChapters": 0,
@@ -2060,7 +2107,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pHSzTdbq0wiqMe9",
-        "_score": 1,
+        "_score": 8,
         "_source": {
             "manga": {
                 "name": "Toriko",
@@ -2085,16 +2132,17 @@
                 "frenchEditor": "Glénat",
                 "france": {
                     "editor": "",
-                    "nbBooks": 0,
+                    "nbBooks": 40,
                     "logo": "img/france/toriko.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
-                    "nbBooks": 0,
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
+                    "nbBooks": 43,
                     "logo": "img/japan/toriko.png",
                     "nbChapters": 366,
-                    "publicationEnd": null,
-                    "publicationStart": "1994"
+                    "publicationEnd": "2016",
+                    "publicationStart": "2008"
                 }
             }
         }
@@ -2103,7 +2151,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pIezTdbq0wiqMfB",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Satan 666",
@@ -2130,7 +2178,8 @@
                     "logo": "img/france/satan666.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 19,
                     "logo": "img/japan/satan666.png",
                     "nbChapters": 0,
@@ -2144,7 +2193,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pJCzTdbq0wiqMfC",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Worst",
@@ -2158,7 +2207,7 @@
                 "hasAnime": true,
                 "country": "Japan",
                 "isFinished": true,
-                "keywords": "",
+                "keywords": "furyo",
                 "nbEpisodes": 0,
                 "lastUpdate": "16/04/2016",
                 "type": "Shonen",
@@ -2185,7 +2234,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pJizTdbq0wiqMfF",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Akame Ga Kill",
@@ -2207,12 +2256,14 @@
                     "name": "Tatsumi"
                 },
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france/akamegakill.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/akamegakill.png",
                     "nbChapters": 69,
@@ -2226,7 +2277,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pK-zTdbq0wiqMfN",
-        "_score": 1,
+        "_score": 8.5,
         "_source": {
             "manga": {
                 "name": "Death Note",
@@ -2270,7 +2321,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pLLzTdbq0wiqMfO",
-        "_score": 1,
+        "_score": 8,
         "_source": {
             "manga": {
                 "name": "Assassination Classroom",
@@ -2292,12 +2343,14 @@
                     "name": "Korosensei"
                 },
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france/assassinationclassroom.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/assassinationclassroom.png",
                     "nbChapters": 0,
@@ -2311,7 +2364,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pKMzTdbq0wiqMfI",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Karate Shoukoushi Kohinata Minoru",
@@ -2354,7 +2407,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pLgzTdbq0wiqMfQ",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Hunter X Hunter",
@@ -2381,7 +2434,8 @@
                     "logo": "img/france/hunterxhunter.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/hunterxhunter.png",
                     "nbChapters": 0,
@@ -2395,7 +2449,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pLtzTdbq0wiqMfS",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Beelzebub",
@@ -2422,7 +2476,8 @@
                     "logo": "img/france/beelzebub.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/japan/beelzebub.png",
                     "nbChapters": 0,
@@ -2477,7 +2532,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pNjzTdbq0wiqMfb",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Claymore",
@@ -2502,12 +2557,14 @@
                 "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 0,
@@ -2528,7 +2585,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pOUzTdbq0wiqMfg",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Ashita No Joe",
@@ -2553,12 +2610,14 @@
                 "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 0,
@@ -2579,7 +2638,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pOszTdbq0wiqMfh",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Gamaran",
@@ -2604,12 +2663,14 @@
                 "japaneseEditor": "Weekly Shōnen Jump",
                 "frenchEditor": "Glénat",
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 0,
@@ -2671,7 +2732,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pPezTdbq0wiqMfn",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "World Trigger",
@@ -2698,7 +2759,8 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 129,
@@ -2712,7 +2774,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pP7zTdbq0wiqMfq",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "The Breaker",
@@ -2756,7 +2818,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pQizTdbq0wiqMft",
-        "_score": 1,
+        "_score": 4.5,
         "_source": {
             "manga": {
                 "name": "Asu No Yoichi",
@@ -2797,7 +2859,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pCIzTdbq0wiqMe4",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Kenichi",
@@ -2838,7 +2900,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pJGzTdbq0wiqMfD",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Yu-Gi-Oh",
@@ -2865,7 +2927,8 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 37,
                     "logo": "img/france.png",
                     "nbChapters": 0,
@@ -2879,7 +2942,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pPdzTdbq0wiqMfm",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Bleach",
@@ -2906,7 +2969,8 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 670,
@@ -2920,7 +2984,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pSczTdbq0wiqMf3",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Girls of The Wild's",
@@ -2944,12 +3008,14 @@
                     "name": "Song Jae Gu"
                 },
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png"
                 },
                 "corea" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 230,
@@ -2963,7 +3029,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pTHzTdbq0wiqMf6",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "Lui Ou Rien",
@@ -3007,7 +3073,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pHQzTdbq0wiqMe8",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "DICE: The Cube that Changes Everything",
@@ -3029,12 +3095,14 @@
                     "name": "Dongtae"
                 },
                 "france": {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png"
                 },
                 "corea" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "logo": "img/france.png",
                     "nbChapters": 134,
@@ -3048,7 +3116,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pILzTdbq0wiqMfA",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "Dr. Frost",
@@ -3086,7 +3154,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pJZzTdbq0wiqMfE",
-        "_score": 1,
+        "_score": 7.5,
         "_source": {
             "manga": {
                 "name": "All You Need Is Kill",
@@ -3113,7 +3181,8 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 2,
                     "logo": "img/france.png",
                     "nbChapters": 17,
@@ -3127,7 +3196,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pNXzTdbq0wiqMfa",
-        "_score": 1,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Crows",
@@ -3164,7 +3233,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pORzTdbq0wiqMff",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Détective Conan",
@@ -3201,7 +3270,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pQezTdbq0wiqMfs",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Hinomaru Zumou",
@@ -3228,7 +3297,8 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "nbChapters": 61,
                     "publicationEnd": "null",
@@ -3241,7 +3311,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pRczTdbq0wiqMfy",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Haikyū!!",
@@ -3265,7 +3335,8 @@
                     "logo": "img/france.png"
                 },
                 "japan" : {
-                    "editor": "Weekly Shōnen Jump",
+                    "magazine": "Weekly Shōnen Jump",
+                    "editor": "Shueisha",
                     "nbBooks": 0,
                     "nbChapters": 0,
                     "publicationEnd": "null",
@@ -3278,7 +3349,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pILzTdbq0wiqMfA",
-        "_score": 1,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "Unordinary",
@@ -3316,7 +3387,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pILzTdbq0wiqMfA",
-        "_score": 1,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "I Love Yoo",
