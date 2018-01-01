@@ -720,11 +720,8 @@
                 },
                 "nbBooks": 0,
                 "nbChapters": 189,
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
                 "publicationEnd": null,
-                "publicationStart": "",
-                "type": "Shonen"
+                "publicationStart": ""
             }
         }
     },
@@ -2547,9 +2544,6 @@
                 "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "type": "Shonen",
                 "logo": "img/",
                 "mainHero": {
                     "name": "Claire"
@@ -2600,9 +2594,6 @@
                 "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "type": "Shonen",
                 "logo": "img/",
                 "mainHero": {
                     "name": "Joe Yabuki"
@@ -2653,9 +2644,6 @@
                 "country": "Japan",
                 "isFinished": true,
                 "keywords": "",
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "type": "Shonen",
                 "logo": "img/",
                 "mainHero": {
                     "name": "Gama"
@@ -3420,5 +3408,5 @@
                 }
             }
         }
-    },
+    }
 ]

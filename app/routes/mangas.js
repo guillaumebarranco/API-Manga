@@ -26,6 +26,13 @@ router.post('/getAllMangas', function(req, res) {
 	});
 });
 
+router.get('/all', function(req, res) {
+
+	mangaController.getMangasFromJSON(function(response) {
+		res.status(200).send(response);
+	});
+});
+
 /*
  * GET
  *

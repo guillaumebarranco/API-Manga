@@ -14,6 +14,12 @@ class Manga {
 		 });
 	}
 
+	getMangasFromJSON(callback) {
+		mangaProvider.getMangasFromJSON(function(response) {
+			callback(response);
+		});
+	}
+
 	getMangasByType(type, limit, callback) {
 
 		mangaProvider.getMangasByType(type, limit, function(response) {

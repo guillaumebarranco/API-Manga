@@ -17,7 +17,7 @@ global.port = 1208;
 global.hasInternet = true;
 
 process.argv.forEach(function (val) {
-    if(val.indexOf("--nointernet") > -1) global.hasInternet = false
+    if(val.indexOf("--nointernet") > -1) global.hasInternet = false;
 });
 
 var app = express();
@@ -101,5 +101,5 @@ new Routes();
 var server = require('http').Server(app);
 
 server.listen(global.port, function() {
-	console.log('server started with hasInternet : ' + global.hasInternet);
+	console.log(`server started with hasInternet : ${global.hasInternet} on port ${global.port}`);
 });
