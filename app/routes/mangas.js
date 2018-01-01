@@ -33,7 +33,7 @@ router.post('/getAllMangas', function(req, res) {
  * @string type 		: example "shonen"
  * @int limit			: example 10
  */
-router.get('/getMangasByType/:type/:limit', function(req, res) {
+router.get('/all/:type/:limit', function(req, res) {
 
 	let type = req.params.type,
 		limit = req.params.limit;
