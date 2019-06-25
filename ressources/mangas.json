@@ -132,7 +132,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pJizTdbq0wiqMfG",
-        "_score": 6.5,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Boku No Hero Academia",
@@ -175,7 +175,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pKOzTdbq0wiqMfJ",
-        "_score": 6,
+        "_score": 6.5,
         "_source": {
             "manga": {
                 "name": "The Gamer",
@@ -216,7 +216,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pKSzTdbq0wiqMfK",
-        "_score": 1,
+        "_score": 5,
         "_source": {
             "manga": {
                 "name": "Black Clover",
@@ -858,7 +858,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pM7zTdbq0wiqMfY",
-        "_score": 7,
+        "_score": 7.5,
         "_source": {
             "manga": {
                 "name": "Tower Of God",
@@ -2061,7 +2061,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pB8zTdbq0wiqMey",
-        "_score": 1,
+        "_score": 8,
         "_source": {
             "manga": {
                 "name": "Feng Shen Ji",
@@ -2104,7 +2104,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pHSzTdbq0wiqMe9",
-        "_score": 8,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Toriko",
@@ -2318,7 +2318,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pLLzTdbq0wiqMfO",
-        "_score": 8,
+        "_score": 7.5,
         "_source": {
             "manga": {
                 "name": "Assassination Classroom",
@@ -2488,7 +2488,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pMbzTdbq0wiqMfW",
-        "_score": 1,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "Shingeki No Kyojin",
@@ -2679,7 +2679,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pO0zTdbq0wiqMfi",
-        "_score": 1,
+        "_score": 4,
         "_source": {
             "manga": {
                 "name": "Terra Formars",
@@ -3258,7 +3258,7 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pQezTdbq0wiqMfs",
-        "_score": 6.5,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Hinomaru Zumou",
@@ -3405,6 +3405,88 @@
                     "nbChapters": 23,
                     "publicationEnd": null,
                     "publicationStart": "2017"
+                }
+            }
+        }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 6,
+        "_source": {
+            "manga": {
+                "name": "The Promised Neverland",
+                "authors": [
+                    {
+                        "name": "Kaiu Shirai"
+                    },
+                    {
+                        "name": "Posuka Demizu"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": true,
+                "country": "Japan",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": "Emma"
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "japan" : {
+                    "editor": "Shueisha",
+                    "nbBooks": 14,
+                    "logo": "img/france.png",
+                    "nbChapters": 139,
+                    "publicationEnd": null,
+                    "publicationStart": "2016"
+                }
+            }
+        }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 7,
+        "_source": {
+            "manga": {
+                "name": "Solo Leveling",
+                "authors": [
+                    {
+                        "name": "Jang Sung-Lak"
+                    },
+                    {
+                        "name": "Gee So-Lyung"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": false,
+                "country": "Corea",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": "Sung Jin-Woo"
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "corea" : {
+                    "editor": "Naver",
+                    "nbBooks": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 76,
+                    "publicationEnd": null,
+                    "publicationStart": "2018"
                 }
             }
         }
