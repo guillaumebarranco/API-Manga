@@ -1,5 +1,6 @@
 # API-Manga
 An API for Mangas
+Live at http://webarranco.fr:1208
 
 ## Installation
 	clone/pull the repository
