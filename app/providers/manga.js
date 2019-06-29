@@ -67,35 +67,35 @@ class mangaProvider {
 
 	simpleLimitSearch(match, limit, callback) {
 
-		if(global.hasInternet) {
+		// if(global.hasInternet) {
 
-			global.elasticClient.search({
+		// 	global.elasticClient.search({
 
-				index: 'mangas',
-				type: 'manga',
-				size: limit,
-				body: {
-					query : {
-				      match: {
-				        _all: match
-				      }
-				    }
-				}
+		// 		index: 'mangas',
+		// 		type: 'manga',
+		// 		size: limit,
+		// 		body: {
+		// 			query : {
+		// 		      match: {
+		// 		        _all: match
+		// 		      }
+		// 		    }
+		// 		}
 
-			}).then(function (resp) {
-				var hits = resp.hits.hits;
-				callback(hits);
+		// 	}).then(function (resp) {
+		// 		var hits = resp.hits.hits;
+		// 		callback(hits);
 
-			}, function (err) {
-				callback(err);
-			});
+		// 	}, function (err) {
+		// 		callback(err);
+		// 	});
 
-		} else {
+		// } else {
 
 			this.getMangasFromJSON(function(mangas) {
 				callback(mangas.slice(mangas.length - limit));
 			});
-		}
+		// }
 	}
 
 	getMangasByType(type, limit, callback) {
