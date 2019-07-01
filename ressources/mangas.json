@@ -7,12 +7,13 @@
         "_source": {
             "manga": {
                 "name": "Naruto",
+                "slug": "naruto",
                 "authors": [
                     {
                         "name": "Masashi Kishimoto"
                     }
                 ],
-                "closeMangas": [],
+                "closeMangas": ["black_clover", "satan_666"],
                 "country": "Japan",
                 "description": "Naruto est un jeune ninja turbulent et orphelin. Seul depuis tout petit, il multiplie les bêtises en tout genre pour se faire remarquer mais n'en arrive qu'à se faire détester par le village de Konoha. Par le biais de son professeur Iruka et du traître Mizuki, il découvre que cette haine collective n'est autre que le fruit du démon qu'il abrite en lui. Kyubi, le démon renard à neuf queues ayant attaqué le village et scellé en lui par le 4ème Hokage. Mais loin de se laisser abattre, Naruto parvient à devenir un vrai ninja et part en missions accompagné du professeur Kakashi, de son amie Sakura et de son rival, Sasuke Uchiwa.",
                 "hasAnime": true,
@@ -22,7 +23,7 @@
                 "nbEpisodes": 500,
                 "type": "Shonen",
                 "mainHero": {
-                    "name": "Naruto"
+                    "name": "Naruto Uzumaki"
                 },
                 "france": {
                     "editor": "Kana",
@@ -49,6 +50,7 @@
         "_source": {
             "manga": {
                 "name": "Kingdom",
+                "slug": "kingdom",
                 "authors": [
                     {
                         "name": "Yasuhisa Hara"
@@ -91,6 +93,7 @@
         "_source": {
             "manga": {
                 "name": "Eyeshield 21",
+                "slug": "eyeshield_21",
                 "authors": [
                     {
                         "name": "Riichirō Inagaki"
@@ -136,12 +139,13 @@
         "_source": {
             "manga": {
                 "name": "Boku No Hero Academia",
+                "slug": "boku_no_hero_academia",
                 "authors": [
                     {
                         "name": "Horikoshi Kouhei"
                     }
                 ],
-                "closeMangas": [],
+                "closeMangas": ["black_clover"],
                 "description": "",
                 "hasAnime": true,
                 "country": "Japan",
@@ -179,12 +183,13 @@
         "_source": {
             "manga": {
                 "name": "The Gamer",
+                "slug": "the_gamer",
                 "authors": [
                     {
                         "name": "Sung San-Young"
                     }
                 ],
-                "closeMangas": [],
+                "closeMangas": ["solo_leveling", "dice"],
                 "description": "Jee Han est un lycéen tout ce qu'il y a de plus normal. Passionné de jeux vidéos, il se réveille un jour en se découvrant des pouvoirs surnaturels. Le pouvoir du maître de jeu vidéo. Augmentation de son intellect, apprentissage de nouveaux coups, pop-ups pour accepter des défis... Cependant ces pouvoirs vont rapidement lui apprendre l'existence d'un réseau souterrain et empli de clans aux pouvoirs surnaturels.",
                 "hasAnime": true,
                 "country": "Corea",
@@ -220,12 +225,13 @@
         "_source": {
             "manga": {
                 "name": "Black Clover",
+                "slug": "black_clover",
                 "authors": [
                     {
                         "name": "Tabata Yuuki"
                     }
                 ],
-                "closeMangas": [],
+                "closeMangas": ["naruto", "boku_no_hero_academia"],
                 "description": "",
                 "hasAnime": true,
                 "country": "Japan",
@@ -262,6 +268,7 @@
         "_source": {
             "manga": {
                 "name": "Nisekoi",
+                "slug": "nisekoi",
                 "authors": [
                     {
                         "name": "Komi Naoshi"
@@ -304,9 +311,10 @@
         "_source": {
             "manga": {
                 "name": "Dreamland",
+                "slug": "dreamland",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Reno Lemaire"
                     }
                 ],
                 "closeMangas": [],
@@ -340,6 +348,7 @@
         "_source": {
             "manga": {
                 "name": "City Hunter",
+                "slug": "city_hunter",
                 "frenchName": "Nicky Larson",
                 "authors": [
                     {
@@ -386,6 +395,7 @@
         "_source": {
             "manga": {
                 "name": "Saru Lock",
+                "slug": "saru_lock",
                 "authors": [
                     {
                         "name": "Naoki Serizawa"
@@ -427,9 +437,10 @@
         "_source": {
             "manga": {
                 "name": "Young GTO",
+                "slug": "young_gto",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Tōru Fujisawa"
                     }
                 ],
                 "closeMangas": [],
@@ -469,6 +480,7 @@
         "_source": {
             "manga": {
                 "name": "Kubera",
+                "slug": "kubera",
                 "authors": [
                     {
                         "name": ""
@@ -510,6 +522,7 @@
         "_source": {
             "manga": {
                 "name": "Fairy Tail",
+                "slug": "fairy_tail",
                 "authors": [
                     {
                         "name": "Hiro Mashima"
@@ -554,6 +567,7 @@
         "_source": {
             "manga": {
                 "name": "Hi No Tori",
+                "slug": "hi_no_tori",
                 "authors": [
                     {
                         "name": "Ozamu Tezuka"
@@ -596,9 +610,10 @@
         "_source": {
             "manga": {
                 "name": "Pretty Face",
+                "slug": "pretty_face",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yasuhiro Kanô"
                     }
                 ],
                 "closeMangas": [],
@@ -640,6 +655,7 @@
         "_source": {
             "manga": {
                 "name": "Dragon Ball",
+                "slug": "dragon_ball",
                 "authors": [
                     {
                         "name": "Akira Toriyama"
@@ -683,6 +699,7 @@
         "_source": {
             "manga": {
                 "name": "Red Storm",
+                "slug": "red_storm",
                 "authors": [
                     {
                         "name": "Cyungchan Noh"
@@ -733,9 +750,10 @@
         "_source": {
             "manga": {
                 "name": "OnePunch-Man",
+                "slug": "one_punch_man",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yûsuke Murata"
                     }
                 ],
                 "closeMangas": [],
@@ -775,6 +793,7 @@
         "_source": {
             "manga": {
                 "name": "Noblesse",
+                "slug": "noblesse",
                 "authors": [
                     {
                         "name": "Son Jae-Ho"
@@ -786,7 +805,7 @@
                 "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
-                "country": "Japan",
+                "country": "Corea",
                 "isFinished": true,
                 "keywords": "",
                 "nbEpisodes": 0,
@@ -862,6 +881,7 @@
         "_source": {
             "manga": {
                 "name": "Tower Of God",
+                "slug": "tower_of_god",
                 "authors": [
                     {
                         "name": "Slave In Utero"
@@ -904,10 +924,11 @@
         "_source": {
             "manga": {
                 "name": "Captain Tsubasa",
+                "slug": "captain_tsubasa",
                 "frenchName": "Olive Et Tom",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yōichi Takahashi"
                     }
                 ],
                 "closeMangas": [],
@@ -947,9 +968,10 @@
         "_source": {
             "manga": {
                 "name": "Slam Dunk",
+                "slug": "slam_dunk",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Takehiko Inoue"
                     }
                 ],
                 "closeMangas": [
@@ -992,6 +1014,7 @@
         "_source": {
             "manga": {
                 "name": "Darwin's Game",
+                "slug": "darwin_game",
                 "authors": [
                     {
                         "name": "Flipf lops"
@@ -1034,6 +1057,7 @@
         "_source": {
             "manga": {
                 "name": "Hikaru No Go",
+                "slug": "hikaru_no_go",
                 "authors": [
                     {
                         "name": "Yumi Hotta"
@@ -1080,12 +1104,13 @@
         "_source": {
             "manga": {
                 "name": "Rave",
+                "slug": "rave",
                 "authors": [
                     {
                         "name": "Hiro Mashima"
                     }
                 ],
-                "closeMangas": [],
+                "closeMangas": ["fairy_tail"],
                 "description": "",
                 "hasAnime": true,
                 "country": "Japan",
@@ -1122,9 +1147,10 @@
         "_source": {
             "manga": {
                 "name": "Kuroko No Basket",
+                "slug": "kuroko_no_basket",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Tadatoshi Fujimaki"
                     }
                 ],
                 "closeMangas": [],
@@ -1164,9 +1190,10 @@
         "_source": {
             "manga": {
                 "name": "Code:breaker",
+                "slug": "code_breaker",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Akimine Kamijō"
                     }
                 ],
                 "closeMangas": [],
@@ -1202,58 +1229,15 @@
     {
         "_index": "mangas",
         "_type": "manga",
-        "_id": "AVQP8pSizTdbq0wiqMf5",
-        "_score": 3,
-        "_source": {
-            "manga": {
-                "name": "Prince of Tennis",
-                "authors": [
-                    {
-                        "name": ""
-                    }
-                ],
-                "closeMangas": [
-                    "Kuroko No Basket"
-                ],
-                "description": "",
-                "hasAnime": true,
-                "country": "Japan",
-                "isFinished": true,
-                "keywords": "sport",
-                "nbEpisodes": 0,
-                "lastUpdate": "16/04/2016",
-                "type": "Shonen",
-                "mainHero": {
-                    "name": "Ryōma Echizen"
-                },
-                "france": {
-                    "editor": "",
-                    "nbBooks": 0,
-                    "logo": "img/france/princeoftennis.png"
-                },
-                "japan" : {
-                    "magazine": "Weekly Shōnen Jump",
-                    "editor": "Shueisha",
-                    "nbBooks": 0,
-                    "logo": "img/japan/princeoftennis.png",
-                    "nbChapters": 0,
-                    "publicationEnd": "null",
-                    "publicationStart": "1994"
-                }
-            }
-        }
-    },
-    {
-        "_index": "mangas",
-        "_type": "manga",
         "_id": "AVQP8pTMzTdbq0wiqMf7",
         "_score": 3.5,
         "_source": {
             "manga": {
                 "name": "Reborn",
+                "slug": "reborn",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Akira Amano"
                     }
                 ],
                 "closeMangas": [],
@@ -1294,6 +1278,7 @@
         "_source": {
             "manga": {
                 "name": "Bakuman",
+                "slug": "bakuman",
                 "authors": [
                     {
                         "name": "Takeshi Obata"
@@ -1339,6 +1324,7 @@
         "_source": {
             "manga": {
                 "name": "Jackals",
+                "slug": "jackals",
                 "authors": [
                     {
                         "name": "Kim Byung Jin"
@@ -1382,6 +1368,7 @@
         "_source": {
             "manga": {
                 "name": "Magi The Labyrinth of Magic",
+                "slug": "magi",
                 "authors": [
                     {
                         "name": "Ohtaka Shinobu"
@@ -1425,6 +1412,7 @@
         "_source": {
             "manga": {
                 "name": "Yu Yu Hakusho",
+                "slug": "yu_yu_hakusho",
                 "authors": [
                     {
                         "name": "Yoshihiro Togashi"
@@ -1467,9 +1455,10 @@
         "_source": {
             "manga": {
                 "name": "Fullmetal Alchemist",
+                "slug": "full_metal_alchemist",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Hiromu Arakawa"
                     }
                 ],
                 "closeMangas": [],
@@ -1509,6 +1498,7 @@
         "_source": {
             "manga": {
                 "name": "Ginga Patrol Jako",
+                "slug": "ginga_patrol_jako",
                 "authors": [
                     {
                         "name": "Akira Toriyama"
@@ -1551,6 +1541,7 @@
         "_source": {
             "manga": {
                 "name": "Gamble fish",
+                "slug": "gamble_fish",
                 "authors": [
                     {
                         "name": "Aoyama Hiromi"
@@ -1593,9 +1584,10 @@
         "_source": {
             "manga": {
                 "name": "Tonari no Seki-kun",
+                "slug": "tonari_no_seki_kun",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Takuma Morishige"
                     }
                 ],
                 "closeMangas": [],
@@ -1636,9 +1628,10 @@
         "_source": {
             "manga": {
                 "name": "Puella Magi Madoka Magica",
+                "slug": "puella_magi_madoka_magica",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Hanokage"
                     }
                 ],
                 "closeMangas": [],
@@ -1681,6 +1674,7 @@
         "_source": {
             "manga": {
                 "name": "Nanatsu No Taizai",
+                "slug": "nanatsu_no_taizai",
                 "authors": [
                     {
                         "name": "Suzuki Nakaba"
@@ -1726,9 +1720,10 @@
         "_source": {
             "manga": {
                 "name": "Black Cat",
+                "slug": "black_cat",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Kentaro Yabuki"
                     }
                 ],
                 "closeMangas": [],
@@ -1768,9 +1763,10 @@
         "_source": {
             "manga": {
                 "name": "Shaman king",
+                "slug": "shaman_king",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Hiroyuki Takei"
                     }
                 ],
                 "closeMangas": [],
@@ -1810,9 +1806,10 @@
         "_source": {
             "manga": {
                 "name": "Doubt",
+                "slug": "doubt",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yoshiki Tonogai"
                     }
                 ],
                 "closeMangas": [],
@@ -1855,6 +1852,7 @@
         "_source": {
             "manga": {
                 "name": "Shokugeki no Soma",
+                "slug": "shokugeki_no_soma",
                 "authors": [
                     {
                         "name": "Tsukuda Yuuto"
@@ -1896,10 +1894,13 @@
         "_score": 4.5,
         "_source": {
             "manga": {
-                "name": "Blue Dragon",
+                "name": "Blue Dragon : Ral Ω Grad",
+                "slug": "blue_dragon",
                 "authors": [
                     {
                         "name": "Takeshi Obata"
+                    }, {
+                        "name": "Tsuneo Takano"
                     }
                 ],
                 "closeMangas": [],
@@ -1938,6 +1939,7 @@
         "_source": {
             "manga": {
                 "name": "Blazing Ninjaman",
+                "slug": "blazing_ninjaman",
                 "authors": [
                     {
                         "name": ""
@@ -1981,6 +1983,7 @@
         "_source": {
             "manga": {
                 "name": "One Piece",
+                "slug": "one_piece",
                 "authors": [
                     {
                         "name": "Eiichirō Oda"
@@ -2022,7 +2025,9 @@
         "_score": 9,
         "_source": {
             "manga": {
-                "name": "Kenshin le Vagabond",
+                "name": "Rurouni No Kenshin",
+                "slug": "kenshin",
+                "frenchName": "Kenshin le Vagabond",
                 "authors": [
                     {
                         "name": "Nobuhiro Watsuki"
@@ -2065,6 +2070,7 @@
         "_source": {
             "manga": {
                 "name": "Feng Shen Ji",
+                "slug": "feng_shen_ji",
                 "authors": [
                     {
                         "name": "Zeng Jian He"
@@ -2108,6 +2114,7 @@
         "_source": {
             "manga": {
                 "name": "Toriko",
+                "slug": "toriko",
                 "authors": [
                     {
                         "name": "Shimabukuro Mitsutoshi"
@@ -2152,6 +2159,7 @@
         "_source": {
             "manga": {
                 "name": "Satan 666",
+                "slug": "satan_666",
                 "authors": [
                     {
                         "name": "Seishi Kishimoto"
@@ -2194,9 +2202,10 @@
         "_source": {
             "manga": {
                 "name": "Worst",
+                "slug": "worst",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Hiroshi Takahashi"
                     }
                 ],
                 "closeMangas": [],
@@ -2235,6 +2244,7 @@
         "_source": {
             "manga": {
                 "name": "Akame Ga Kill",
+                "slug": "akame_ga_kill",
                 "authors": [
                     {
                         "name": "Takahiro"
@@ -2278,6 +2288,7 @@
         "_source": {
             "manga": {
                 "name": "Death Note",
+                "slug": "death_note",
                 "authors": [
                     {
                         "name": "Takeshi Obata"
@@ -2322,6 +2333,7 @@
         "_source": {
             "manga": {
                 "name": "Assassination Classroom",
+                "slug": "assassination_classroom",
                 "authors": [
                     {
                         "name": "Matsui Yuusei"
@@ -2365,6 +2377,7 @@
         "_source": {
             "manga": {
                 "name": "Karate Shoukoushi Kohinata Minoru",
+                "slug": "karate_shoukoushi_kohinata_minoru",
                 "authors": [
                     {
                         "name": "Yasushi Baba"
@@ -2404,13 +2417,14 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pLgzTdbq0wiqMfQ",
-        "_score": 6.5,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Hunter X Hunter",
+                "slug": "hunter_x_hunter",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yoshihiro Togashi"
                     }
                 ],
                 "closeMangas": [],
@@ -2450,9 +2464,10 @@
         "_source": {
             "manga": {
                 "name": "Beelzebub",
+                "slug": "beelzebub",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Ryūhei Tamura"
                     }
                 ],
                 "closeMangas": [],
@@ -2488,10 +2503,12 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pMbzTdbq0wiqMfW",
-        "_score": 5.5,
+        "_score": 6,
         "_source": {
             "manga": {
                 "name": "Shingeki No Kyojin",
+                "slug": "shingeki_no_kyojin",
+                "frenchName": "L'attaque des titans",
                 "authors": [
                     {
                         "name": "Isayama Hajime"
@@ -2533,6 +2550,7 @@
         "_source": {
             "manga": {
                 "name": "Claymore",
+                "slug": "claymore",
                 "authors": [
                     {
                         "name": "Yagu Norihiro"
@@ -2579,10 +2597,12 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pOUzTdbq0wiqMfg",
-        "_score": 6.5,
+        "_score": 7,
         "_source": {
             "manga": {
                 "name": "Ashita No Joe",
+                "slug": "ashita_no_joe",
+                "frenchName": "Tomorrow's Joe",
                 "authors": [
                     {
                         "name": "Takamori Asao"
@@ -2633,9 +2653,10 @@
         "_source": {
             "manga": {
                 "name": "Gamaran",
+                "slug": "gamaran",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yōsuke Nakamaru"
                     }
                 ],
                 "closeMangas": [],
@@ -2679,10 +2700,11 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pO0zTdbq0wiqMfi",
-        "_score": 4,
+        "_score": 4.5,
         "_source": {
             "manga": {
                 "name": "Terra Formars",
+                "slug": "terra_formars",
                 "authors": [
                     {
                         "name": "Yu Sagusa"
@@ -2724,6 +2746,7 @@
         "_source": {
             "manga": {
                 "name": "World Trigger",
+                "slug": "world_trigger",
                 "authors": [
                     {
                         "name": "Daisuke Ashihara"
@@ -2766,6 +2789,7 @@
         "_source": {
             "manga": {
                 "name": "The Breaker",
+                "slug": "the_breaker",
                 "authors": [
                     {
                         "name": "Jeon Geuk-Jin"
@@ -2810,9 +2834,10 @@
         "_source": {
             "manga": {
                 "name": "Asu No Yoichi",
+                "slug": "asu_no_yoichi",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yū Minamoto"
                     }
                 ],
                 "closeMangas": [],
@@ -2850,7 +2875,9 @@
         "_score": 7,
         "_source": {
             "manga": {
-                "name": "Kenichi",
+                "name": "Shijō Saikyō no Deshi Ken'ichi",
+                "slug": "kenichi",
+                "frenchName": "Ken-ichi, le disciple ultime",
                 "authors": [
                     {
                         "name": "Matsuena Syun"
@@ -2891,10 +2918,11 @@
         "_score": 7,
         "_source": {
             "manga": {
-                "name": "Yu-Gi-Oh",
+                "name": "Yu-Gi-Oh!",
+                "slug": "yu_gi_oh",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Kazuki Takahashi"
                     }
                 ],
                 "closeMangas": [],
@@ -2934,6 +2962,7 @@
         "_source": {
             "manga": {
                 "name": "Bleach",
+                "slug": "bleach",
                 "authors": [
                     {
                         "name": "Tite Kubo"
@@ -2976,14 +3005,13 @@
         "_source": {
             "manga": {
                 "name": "Girls of The Wild's",
+                "slug": "girls_of_the_wild",
                 "authors": [
                     {
                         "name": "Hun"
                     }
                 ],
-                "closeMangas": [
-                    "Nisekoi"
-                ],
+                "closeMangas": [],
                 "description": "",
                 "hasAnime": true,
                 "country": "Japan",
@@ -3020,10 +3048,11 @@
         "_score": 5.5,
         "_source": {
             "manga": {
-                "name": "Lui Ou Rien",
+                "name": "Lui Ou Rien !",
+                "slug": "lui_ou_rien",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Yū Watase"
                     }
                 ],
                 "closeMangas": [],
@@ -3065,6 +3094,7 @@
         "_source": {
             "manga": {
                 "name": "DICE: The Cube that Changes Everything",
+                "slug": "dice",
                 "authors": [
                     {
                         "name": "Yun Hyun Suk"
@@ -3108,6 +3138,7 @@
         "_source": {
             "manga": {
                 "name": "Dr. Frost",
+                "slug": "dr_frost",
                 "authors": [
                     {
                         "name": "Lee Jong-bym"
@@ -3146,6 +3177,7 @@
         "_source": {
             "manga": {
                 "name": "All You Need Is Kill",
+                "slug": "all_you_need_is_kill",
                 "authors": [
                     {
                         "name": "Takeshi Obata"
@@ -3188,9 +3220,10 @@
         "_source": {
             "manga": {
                 "name": "Crows",
+                "slug": "crows",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Hiroshi Takahashi"
                     }
                 ],
                 "closeMangas": [],
@@ -3224,10 +3257,12 @@
         "_score": 6.5,
         "_source": {
             "manga": {
-                "name": "Détective Conan",
+                "name": "Meitantei Konan",
+                "frenchName": "Détective Conan",
+                "slug": "detective_conan",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Gōshō Aoyama"
                     }
                 ],
                 "closeMangas": [],
@@ -3262,6 +3297,7 @@
         "_source": {
             "manga": {
                 "name": "Hinomaru Zumou",
+                "slug": "hinomaru_zumou",
                 "authors": [
                     {
                         "name": "Kawada"
@@ -3303,9 +3339,10 @@
         "_source": {
             "manga": {
                 "name": "Haikyū!!",
+                "slug": "haikyu",
                 "authors": [
                     {
-                        "name": ""
+                        "name": "Haruichi Furudate"
                     }
                 ],
                 "closeMangas": [],
@@ -3341,6 +3378,7 @@
         "_source": {
             "manga": {
                 "name": "Unordinary",
+                "slug": "unordinary",
                 "authors": [
                     {
                         "name": "uru-chan"
@@ -3375,10 +3413,11 @@
         "_index": "mangas",
         "_type": "manga",
         "_id": "AVQP8pILzTdbq0wiqMfA",
-        "_score": 6,
+        "_score": 5.5,
         "_source": {
             "manga": {
                 "name": "I Love Yoo",
+                "slug": "i_love_yoo",
                 "authors": [
                     {
                         "name": "Quimchee"
@@ -3417,6 +3456,7 @@
         "_source": {
             "manga": {
                 "name": "The Promised Neverland",
+                "slug": "the_promised_neverland",
                 "authors": [
                     {
                         "name": "Kaiu Shirai"
@@ -3458,6 +3498,7 @@
         "_source": {
             "manga": {
                 "name": "Solo Leveling",
+                "slug": "solo_leveling",
                 "authors": [
                     {
                         "name": "Jang Sung-Lak"
@@ -3487,6 +3528,165 @@
                     "nbChapters": 76,
                     "publicationEnd": null,
                     "publicationStart": "2018"
+                }
+            }
+        }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 6,
+        "_source": {
+            "manga": {
+                "name": "Wind Breaker",
+                "slug": "wind_breaker",
+                "authors": [
+                    {
+                        "name": "Yongseok Jo"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": false,
+                "country": "Corea",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": "Jay"
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "corea" : {
+                    "editor": "Naver",
+                    "nbBooks": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 0,
+                    "publicationEnd": null,
+                    "publicationStart": ""
+                }
+            }
+        }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 6,
+        "_source": {
+            "manga": {
+                "name": "Lookism",
+                "slug": "lookism",
+                "authors": [
+                    {
+                        "name": "Park Tae-joon"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": false,
+                "country": "Corea",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": "Daniel Park"
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "corea" : {
+                    "editor": "Naver",
+                    "nbBooks": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 0,
+                    "publicationEnd": null,
+                    "publicationStart": ""
+                }
+            }
+        }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 7,
+        "_source": {
+            "manga": {
+                "name": "Bastard",
+                "slug": "bastard",
+                "authors": [
+                    {
+                        "name": "YoungChan Hwang"
+                    },
+                    {
+                        "name": "Carnby Kim"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": false,
+                "country": "Corea",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": ""
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "corea" : {
+                    "editor": "Naver",
+                    "nbBooks": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 0,
+                    "publicationEnd": null,
+                    "publicationStart": ""
+                }
+            }
+        }
+    },
+    {
+        "_index": "mangas",
+        "_type": "manga",
+        "_id": "AVQP8pILzTdbq0wiqMfA",
+        "_score": 7,
+        "_source": {
+            "manga": {
+                "name": "Sidekicks",
+                "slug": "sidekicks",
+                "authors": [
+                    {
+                        "name": "Iron Shin"
+                    }
+                ],
+                "closeMangas": [],
+                "description": "",
+                "hasAnime": false,
+                "country": "Corea",
+                "isFinished": false,
+                "keywords": "",
+                "mainHero": {
+                    "name": "Dream Girl"
+                },
+                "france": {
+                    "editor": "",
+                    "nbBooks": 0,
+                    "logo": ""
+                },
+                "corea" : {
+                    "editor": "Naver",
+                    "nbBooks": 0,
+                    "logo": "img/france.png",
+                    "nbChapters": 0,
+                    "publicationEnd": null,
+                    "publicationStart": ""
                 }
             }
         }
